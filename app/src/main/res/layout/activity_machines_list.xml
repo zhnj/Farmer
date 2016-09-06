@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_div"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/main_bg1"
+    tools:context="com.njdp.njdp_farmer.MachinesList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/machines_image_top"
+        android:background="@drawable/top_title">
+        <TextView
+            android:id="@+id/register_title"
+            style="@style/Pages_Title"
+            android:text="农机查询"
+            />
+        <ImageButton
+            android:id="@+id/getback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chevron_left_white_48dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/machines_div"
+        android:layout_below="@+id/machines_image_top">
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fadingEdge="horizontal">
+        </ExpandableListView>
+    </RelativeLayout>
+
+</RelativeLayout>

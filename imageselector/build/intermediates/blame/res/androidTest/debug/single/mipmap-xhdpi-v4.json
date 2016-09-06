@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\cp_imageselector_view_delete.png",
+        "source": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\cp_imageselector_view_delete.png"
+    },
+    {
+        "merged": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\cp_icon_image_stub.png",
+        "source": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\cp_icon_image_stub.png"
+    },
+    {
+        "merged": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\cp_icon_imageselector_unchecked.png",
+        "source": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\cp_icon_imageselector_unchecked.png"
+    },
+    {
+        "merged": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\cp_imageselector_view_done.png",
+        "source": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\cp_imageselector_view_done.png"
+    },
+    {
+        "merged": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\cp_icon_selectorview_add_noborder.png",
+        "source": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\cp_icon_selectorview_add_noborder.png"
+    },
+    {
+        "merged": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\cp_icon_imageselector_checked.png",
+        "source": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\cp_icon_imageselector_checked.png"
+    },
+    {
+        "merged": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4\\cp_icon_selectorview_add_border.png",
+        "source": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\cp_icon_selectorview_add_border.png"
+    }
+]

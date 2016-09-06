@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\exploded-aar\\NJDP_farmer\\MultiImageSelector\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 42,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 41,
+                    "endOffset": 135
+                },
+                "from": {
+                    "file": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\exploded-aar\\NJDP_farmer\\MultiImageSelector\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 41,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 140,
+                    "endColumn": 43,
+                    "endOffset": 179
+                },
+                "from": {
+                    "file": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\exploded-aar\\NJDP_farmer\\MultiImageSelector\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 43,
+                        "endOffset": 179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 184,
+                    "endColumn": 55,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\exploded-aar\\NJDP_farmer\\MultiImageSelector\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 184,
+                        "endColumn": 55,
+                        "endOffset": 235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 48,
+                    "endOffset": 284
+                },
+                "from": {
+                    "file": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\exploded-aar\\NJDP_farmer\\MultiImageSelector\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 48,
+                        "endOffset": 284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 289,
+                    "endColumn": 40,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\exploded-aar\\NJDP_farmer\\MultiImageSelector\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 289,
+                        "endColumn": 40,
+                        "endOffset": 325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 330,
+                    "endColumn": 38,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\exploded-aar\\NJDP_farmer\\MultiImageSelector\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 330,
+                        "endColumn": 38,
+                        "endOffset": 364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 47,
+                    "endOffset": 412
+                },
+                "from": {
+                    "file": "D:\\ASWork\\NJDP_farmer\\app\\build\\intermediates\\exploded-aar\\NJDP_farmer\\MultiImageSelector\\unspecified\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 369,
+                        "endColumn": 47,
+                        "endOffset": 412
+                    }
+                }
+            }
+        ]
+    }
+]

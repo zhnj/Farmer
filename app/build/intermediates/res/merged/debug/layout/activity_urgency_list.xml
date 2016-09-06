@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_div"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/main_bg1"
+    tools:context="com.njdp.njdp_farmer.UrgencyList">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/register_image_top"
+        android:background="@drawable/top_title">
+        <TextView
+            android:id="@+id/register_title"
+            style="@style/Pages_Title"
+            android:text="紧急灾情列表"
+            />
+        <ImageButton
+            android:id="@+id/getback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chevron_left_white_48dp"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="新建"
+            android:id="@+id/btn_add"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:background="#00000000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@+id/register_image_top"
+        android:fadingEdge="horizontal">
+    </ExpandableListView>
+
+</RelativeLayout>

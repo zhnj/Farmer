@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="awesome-validation-1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.basgeekball/awesome-validation/1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.basgeekball/awesome-validation/1.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.basgeekball/awesome-validation/1.1/921ad1739deb839dc346dbbaa7f6368402349130/awesome-validation-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

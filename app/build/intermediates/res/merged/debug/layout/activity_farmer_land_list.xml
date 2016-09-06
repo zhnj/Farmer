@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_div"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/main_bg1"
+    tools:context="com.njdp.njdp_farmer.FarmerLandList">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/register_image_top"
+        android:background="@drawable/top_title">
+        <TextView
+            android:id="@+id/register_title"
+            style="@style/Pages_Title"
+            android:text="发布查询"
+            />
+        <ImageButton
+            android:id="@+id/getback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chevron_left_white_48dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/farmlandlist_div"
+        android:layout_below="@+id/register_image_top">
+
+        <LinearLayout
+            android:id="@+id/line_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"/>
+            <Spinner
+                android:id="@+id/sp_year"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="年你的发布"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="5"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#8E3939"
+            android:layout_below="@+id/line_top" />
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:fadingEdge="horizontal">
+        </ExpandableListView>
+    </RelativeLayout>
+
+</RelativeLayout>

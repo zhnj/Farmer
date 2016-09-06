@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_title"
+    android:fitsSystemWindows="true"
+    tools:context="com.njdp.njdp_farmer.FarmlandUrgencyRelease">
+
+    <RelativeLayout
+        android:id="@+id/release_top_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top_title">
+        <TextView
+            style="@style/Pages_Title"
+            android:id="@+id/tv_top_title"
+            android:text="请输入紧急调配信息"
+            />
+        <ImageButton
+            android:id="@+id/getback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_chevron_left_white_48dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/regiser_div"
+        android:layout_below="@+id/release_top_title"
+        android:background="@drawable/selected_White"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv0"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="10dp"
+                android:text="紧急灾情"
+                android:textSize="18sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Spinner
+                android:id="@+id/sp_urgency"
+                android:layout_width="wrap_content"
+                android:maxWidth="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_horizontal"
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"
+                android:layout_toRightOf="@+id/tv0" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="作物类型"
+                android:textSize="18sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <EditText
+                style="@style/Register_style"
+                android:id="@+id/crops_kind"
+                android:textCursorDrawable="@drawable/login_cursor"
+                android:background="@drawable/login_edit_changecolor"
+                android:textSize="16sp"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:editable="false"
+                android:hint="请选择农作物种类"
+                android:focusableInTouchMode="false"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="农田面积"
+                android:textSize="18sp" />
+            <EditText
+                style="@style/Register_style"
+                android:id="@+id/area"
+                android:textCursorDrawable="@drawable/login_cursor"
+                android:background="@drawable/login_edit_changecolor"
+                android:layout_toRightOf="@+id/tv2"
+                android:layout_marginRight="20dp"
+                android:textSize="16sp"
+                android:paddingLeft="5dp"
+                android:numeric="decimal"
+                android:maxLength="10"
+                android:hint="请输入农田面积" />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="（亩）"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="60dp"
+            android:id="@+id/rl_setAddress">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="地    址"
+                android:textSize="18sp"
+                />
+            <EditText
+                style="@style/Register_style"
+                android:id="@+id/address"
+                android:textCursorDrawable="@drawable/login_cursor"
+                android:background="@drawable/login_edit_changecolor"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/tv3"
+                android:layout_toEndOf="@+id/tv3"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:hint="点击选择要发布的位置"
+                android:editable="false"
+                android:singleLine="false"
+                android:maxLines="2"
+                android:inputType="textMultiLine"
+                android:focusableInTouchMode="false" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="联  系  人"
+                android:textSize="18sp" />
+            <EditText
+                style="@style/Register_style"
+                android:id="@+id/person_name"
+                android:textCursorDrawable="@drawable/login_cursor"
+                android:background="@drawable/login_edit_changecolor"
+                android:paddingLeft="5dp"
+                android:textSize="16sp"
+                android:hint="请输入联系人姓名"
+                android:layout_toRightOf="@+id/tv4"
+                android:layout_marginRight="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="联系方式"
+                android:textSize="18sp" />
+            <EditText
+                style="@style/Register_style"
+                android:id="@+id/phone"
+                android:textCursorDrawable="@drawable/login_cursor"
+                android:background="@drawable/login_edit_changecolor"
+                android:paddingLeft="5dp"
+                android:textSize="16sp"
+                android:hint="请输入联系电话"
+                android:numeric="decimal"
+                android:layout_toRightOf="@+id/tv5"
+                android:layout_marginRight="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="截止时间"
+                android:textSize="18sp" />
+            <EditText
+                style="@style/Register_style"
+                android:id="@+id/deadline"
+                android:textCursorDrawable="@drawable/login_cursor"
+                android:background="@drawable/login_edit_changecolor"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/tv6"
+                android:hint="选择紧急灾情后自动关联"
+                android:editable="false"
+                android:focusableInTouchMode="false"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <Button
+                style="@style/Register_Button_Finish"
+                android:id="@+id/btn_editFinish"
+                android:background="@drawable/button_normal_selector"
+                android:layout_below="@+id/regiser_div"
+                android:text="确认发布"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
