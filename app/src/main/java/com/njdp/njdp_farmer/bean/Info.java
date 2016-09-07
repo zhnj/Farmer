@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by qinlei on 2016/4/11.
+ * 生活详情
  */
 public class Info implements Serializable {
     private List<String> chuanyi;

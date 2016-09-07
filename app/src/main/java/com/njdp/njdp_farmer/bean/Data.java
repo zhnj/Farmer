@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by qinlei on 2016/4/11.
+ * 天气详细数据
  */
 public class Data implements Serializable{
-    private int isForeign;
-    private Life life;
-    private PMTwoPotFive pm25;
     private Realtime realtime;
+    private Life life;
     private List<Weather> weather;
+    private PMTwoPotFive pm25;
+    private int isForeign;
 
     public Data(int isForeign, Life life, PMTwoPotFive pm25, Realtime realtime, List<Weather> weather) {
         this.isForeign = isForeign;

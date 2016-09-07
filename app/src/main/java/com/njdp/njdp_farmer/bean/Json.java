@@ -3,7 +3,7 @@ package com.njdp.njdp_farmer.bean;
 import java.io.Serializable;
 
 /**
- * Created by qinlei on 2016/4/12.
+ * 返回的天气数据结果
  */
 public class Json implements Serializable {
     private int error_code;

@@ -3,7 +3,7 @@ package com.njdp.njdp_farmer.bean;
 import java.io.Serializable;
 
 /**
- * Created by qinlei on 2016/4/11.
+ * 天气生活信息
  */
 public class Life implements Serializable {
     private String date;

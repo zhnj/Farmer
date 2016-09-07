@@ -3,7 +3,7 @@ package com.njdp.njdp_farmer.bean;
 import java.io.Serializable;
 
 /**
- * Created by qinlei on 2016/4/12.
+ * 天气数据部分
  */
 public class Result implements Serializable {
     private Data data;

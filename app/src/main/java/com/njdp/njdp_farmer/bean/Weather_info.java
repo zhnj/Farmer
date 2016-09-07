@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by qinlei on 2016/4/11.
+ * 天气早晚详情.
  */
 public class Weather_info implements Serializable {
     private List<String> day;

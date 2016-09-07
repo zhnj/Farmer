@@ -3,7 +3,7 @@ package com.njdp.njdp_farmer.bean;
 import java.io.Serializable;
 
 /**
- * Created by qinlei on 2016/4/11.
+ * 实时天气数据
  */
 public class Realtime implements Serializable {
     private String city_code;

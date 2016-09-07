@@ -3,7 +3,7 @@ package com.njdp.njdp_farmer.bean;
 import java.io.Serializable;
 
 /**
- * Created by qinlei on 2016/4/11.
+ * 解析空气质量部分.
  */
 public class PmTF implements Serializable {
     private String curPm;
@@ -27,6 +27,9 @@ public class PmTF implements Serializable {
 
     @Override
     public String toString() {
+        if(curPm == null || des == null || pm10 == null || pm25 == null || quality == null){
+            return "";
+        }
         return "PmTF{" +
                 "curPm='" + curPm + '\'' +
                 ", des='" + des + '\'' +

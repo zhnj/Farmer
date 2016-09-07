@@ -136,7 +136,11 @@ public class WindowWeather extends AppCompatActivity implements SwipeRefreshLayo
         if(jsonStr!=null&&jsonStr.length()>100){
             //解析对象
             mdata=jsonToBean.toBean(jsonStr);
-            showView();
+            if(mdata == null){
+                Snackbar.make(rootView, "天气数据格式错误，无法转换。", Snackbar.LENGTH_SHORT).show();
+            }else {
+                showView();
+            }
         }
         getDataFromHttp();
     }
@@ -250,7 +254,11 @@ public class WindowWeather extends AppCompatActivity implements SwipeRefreshLayo
         if(jsonStr!=null&&!jsonStr.equals("")){
             //解析并保存对象
             mdata=jsonToBean.toBean(jsonStr);
-            showView();
+            if(mdata == null){
+                Snackbar.make(rootView, "天气数据格式错误，无法转换。", Snackbar.LENGTH_SHORT).show();
+            }else {
+                showView();
+            }
         }
     }
 
@@ -269,7 +277,6 @@ public class WindowWeather extends AppCompatActivity implements SwipeRefreshLayo
         } else {
             mRefreshLayout.setEnabled(false);
         }
-
     }
 
     /**
