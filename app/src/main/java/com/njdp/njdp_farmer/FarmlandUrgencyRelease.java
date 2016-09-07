@@ -505,9 +505,15 @@ public class FarmlandUrgencyRelease extends AppCompatActivity {
             locationProvider = LocationManager.NETWORK_PROVIDER;
             if(locationManager.getLastKnownLocation(locationProvider) != null){
                 return locationManager.getLastKnownLocation(locationProvider);
+            }
+        }
+        if(providers.contains(LocationManager.PASSIVE_PROVIDER)){
+            //使用被动定位
+            locationProvider = LocationManager.PASSIVE_PROVIDER;
+            if(locationManager.getLastKnownLocation(locationProvider) != null){
+                return locationManager.getLastKnownLocation(locationProvider);
             } else {
                 error_hint("没有可用的位置提供器，请检查本设备是否支持定位功能。");
-                return null;
             }
         }
 

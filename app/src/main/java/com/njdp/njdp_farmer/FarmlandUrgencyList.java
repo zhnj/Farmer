@@ -329,11 +329,21 @@ public class FarmlandUrgencyList extends AppCompatActivity {
         }
         switch (requestCode) {
             case FARMLANDURGENCY_ADD:
+                int i = 0;
                 FarmlandInfoUrgency f = (FarmlandInfoUrgency)data.getSerializableExtra("farmlandInfoUrgency");
                 if(f != null){
-                    urgency_id = f.getDisaster_id();
+                    for (UrgencyInfo u : urgencyInfos) {
+                        if(u.getId().equals(f.getDisaster_id())) {
+                            //获取紧急灾情选择下拉窗
+                            Spinner spinner = (Spinner) findViewById(R.id.sp_urgency);
+                            //为spinner添加适配器
+                            assert spinner != null;
+                            spinner.setSelection(i);
+                            break;
+                        }
+                        i++;
+                    }
                 }
-                getFarmlandUrgencyInfos(urgency_id, 0);
                 break;
             case FARMLANDURGENCY_EDIT:
                 if(isEditNow >= 0){
