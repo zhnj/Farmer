@@ -518,6 +518,7 @@ public class FarmerRelease extends AppCompatActivity {
                         .execute(new StringCallback() {
                             @Override
                             public void onError(Call call, Exception e) {
+                                error_hint("图片上传超时。");
                                 Log.e("AddressPicUp", "3 Connect Error: " + e.getMessage());
                                 hideDialog();
                             }
