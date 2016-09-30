@@ -391,7 +391,7 @@ public class UrgencyList extends AppCompatActivity {
         }
     };
 
-    //删除发布的农田信息
+    //删除发布的紧急灾情信息
     public void DeleteUrgencyInfos(final String id) {
 
         String tag_string_req = "req_urgency_Delete";
