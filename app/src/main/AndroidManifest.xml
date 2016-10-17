@@ -108,20 +108,6 @@
             android:name=".MainLink"
             android:screenOrientation="portrait" />
 
-        <!-- 三个主界面Frame -->
-        <!--
-        activity
-            android:name=".conent_frament.FarmlandManager"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".conent_frament.PersonalInfoFrame"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".conent_frament.FarmMachineSearch"
-            android:theme="@style/AppTheme.NoActionBar" /
-        -->
-
-
         <!-- 农田发布、农田列表查询、农机列表查询 -->
         <activity
             android:name=".FarmerRelease"

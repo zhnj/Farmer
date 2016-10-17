@@ -142,7 +142,10 @@ public class FarmUrgencyAdapter extends BaseExpandableListAdapter{
                 child.get(groupPosition).get(childPosition).getVillage());
         viewHolder.person_name.setText("联  系  人："+child.get(groupPosition).get(childPosition).getPerson());
         viewHolder.phone.setText("联系方式："+child.get(groupPosition).get(childPosition).getPhone());
-        viewHolder.deadline.setText("截止时间："+child.get(groupPosition).get(childPosition).getDeadline());
+        if(child.get(groupPosition).get(childPosition).getDeadline().length() > 10)
+            viewHolder.deadline.setText("截止时间："+child.get(groupPosition).get(childPosition).getDeadline().substring(0, 10));
+        else
+            viewHolder.deadline.setText("截止时间："+child.get(groupPosition).get(childPosition).getDeadline());
         return convertView;
     }
 
