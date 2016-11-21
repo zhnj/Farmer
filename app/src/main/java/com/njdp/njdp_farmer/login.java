@@ -185,7 +185,7 @@ public class login extends AppCompatActivity {
                     Map<String, String> params = new HashMap<>();
                     params.put("fm_username", farmer.getTelephone());
                     params.put("fm_password", farmer.getPassword());
-                    params.put("fm_tag", "F");
+                    params.put("fm_tag", "FARMER");
                     return params;
                 }
             };
