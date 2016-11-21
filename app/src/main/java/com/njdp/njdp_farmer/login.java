@@ -232,11 +232,11 @@ public class login extends AppCompatActivity {
                     db.addUser(farmer.getId(), farmer.getName(), farmer.getTelephone(), farmer.getPassword(), farmer.getImageUrl());
                     //Launch main activity
                     Intent intent;
-                    //检查账号类型，F农户，G政府账号，M农机
-                    if(jObj.getString("userTag").equals("G")){
+                    //检查账号类型，FARMER农户，GOVERN政府账号，MACHINE农机
+                    if(jObj.getString("userTag").equals("GOVERN")){
                         intent = new Intent(login.this, MainPageUrgency.class);
                         session.setLogin(true,true,token);
-                    }else if(jObj.getString("userTag").equals("F")){
+                    }else if(jObj.getString("userTag").equals("FARMER")){
                         intent = new Intent(login.this, MainLink.class);
                         session.setLogin(true,false,token);
                     }else {
