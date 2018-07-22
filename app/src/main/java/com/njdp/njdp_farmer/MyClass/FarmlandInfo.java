@@ -33,6 +33,9 @@ public class FarmlandInfo implements Serializable {
     private String remark;            //备注信息
     private String createtime;       //创建时间
     private String updatetime;       //修改时间
+    private String PingJia; //评价
+    private String StartCount;     //评价星级
+
 
     public FarmlandInfo()
     {
@@ -64,6 +67,8 @@ public class FarmlandInfo implements Serializable {
         remark = "";
         createtime = "";
         updatetime = "";
+        PingJia = "";
+        StartCount="0";
     }
 
 
@@ -280,4 +285,19 @@ public class FarmlandInfo implements Serializable {
         }
     }
 
+    public String getPingJia() {
+        return PingJia;
+    }
+
+    public void setPingJia(String pingJia) {
+        PingJia = pingJia;
+    }
+
+    public String getStartCount() {
+        return StartCount;
+    }
+
+    public void setStartCount(String startCount) {
+        StartCount = startCount;
+    }
 }

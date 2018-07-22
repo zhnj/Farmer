@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="23" />
+        android:minSdkVersion="17"
+        android:targetSdkVersion="25" />
 
     <!-- 联网 -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -45,6 +45,10 @@
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
 
     <application
         android:name="com.njdp.njdp_farmer.db.AppController"
@@ -114,20 +118,6 @@
             android:name="com.njdp.njdp_farmer.MainLink"
             android:screenOrientation="portrait" />
 
-        <!-- 三个主界面Frame -->
-        <!--
-        activity
-            android:name=".conent_frament.FarmlandManager"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".conent_frament.PersonalInfoFrame"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".conent_frament.FarmMachineSearch"
-            android:theme="@style/AppTheme.NoActionBar" /
-        -->
-
-
         <!-- 农田发布、农田列表查询、农机列表查询 -->
         <activity
             android:name="com.njdp.njdp_farmer.FarmerRelease"
@@ -174,7 +164,9 @@
         <!-- 地图密钥 -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="31dCRj6WmM8spHFHHuNKoGDqig6GD5DN" />
+            android:value="4YP5ux3oKvWSMmAIF1Hvg6cSTSnBzAhS" />
+
+        <activity android:name="com.njdp.njdp_farmer.UAVListActivity" />
     </application>
 
 </manifest>

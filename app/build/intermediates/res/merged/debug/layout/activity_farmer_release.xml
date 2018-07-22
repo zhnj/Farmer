@@ -59,7 +59,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginRight="20dp"
+
                     android:layout_toRightOf="@+id/tv0">
                     <RadioButton
                         android:id="@+id/rbH"
@@ -70,7 +70,7 @@
                         android:layout_marginTop="3dp"
                         android:textColor="@color/colorBlack"
                         android:text="收割"
-                        android:textSize="18dp" />
+                        android:textSize="16dp" />
                     <RadioButton
                         android:id="@+id/rbC"
                         android:layout_width="wrap_content"
@@ -80,7 +80,8 @@
                         android:layout_marginTop="3dp"
                         android:textColor="@color/colorBlack"
                         android:text="耕作"
-                        android:textSize="18dp"/>
+                        android:layout_marginStart="1dp"
+                        android:textSize="16dp"/>
                     <RadioButton
                         android:id="@+id/rbS"
                         android:layout_width="wrap_content"
@@ -90,7 +91,20 @@
                         android:layout_marginTop="3dp"
                         android:textColor="@color/colorBlack"
                         android:text="播种"
-                        android:textSize="18dp"/>
+                        android:textSize="16dp"/>
+
+                    <RadioButton
+                        android:id="@+id/rbF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:layout_marginTop="3dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="植保"
+                        android:textSize="16dp"/>
+
+
 
                 </RadioGroup>
 
@@ -425,3 +439,4 @@
 
 
 </RelativeLayout>
+

@@ -33,7 +33,7 @@ public class AirQualityShowView {
         mProAir10= (ProgressBar) context.findViewById(R.id.air_progressBar10);
         mProAir25= (ProgressBar) context.findViewById(R.id.air_progressBar25);
 
-        if(mData.getPm25() == null || mData.getPm25().getCurPm().equals("")) {
+        if(mData == null || mData.getPm25() == null || mData.getPm25().getCurPm().equals("")) {
             show();
         }else {
             mColor = ChooseAirQualityColor.getColor(mData.getPm25().getCurPm());

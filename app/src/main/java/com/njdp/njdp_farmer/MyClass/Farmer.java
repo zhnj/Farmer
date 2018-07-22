@@ -18,6 +18,14 @@ public class Farmer implements Serializable {
     private String address;       //详细地址
     private boolean isLogined;  //登录状态
 
+
+    private String sex;           //性别
+    private String personsfzh;     //身份证号
+    private String populationnum;    //劳动人数
+    private String farmlandarea;  //耕地面积
+
+
+
     public Farmer() {
         id = 0;
         name = "";
@@ -28,6 +36,10 @@ public class Farmer implements Serializable {
         weixin = "";
         address = "";
         isLogined = false;
+        sex="男";
+        personsfzh = "";
+        populationnum = "";
+        farmlandarea="";
     }
 
     public int getId(){return id;}
@@ -102,5 +114,28 @@ public class Farmer implements Serializable {
     public void setIsLogined(boolean isLogined)
     {
         this.isLogined=isLogined;
+    }
+
+
+    public String getFarmlandarea() { return farmlandarea;   }
+
+    public void setFarmlandarea(String farmlandarea) { this.farmlandarea = farmlandarea;   }
+
+    public String getPopulationnum() {  return populationnum;  }
+
+    public void setPopulationnum(String populationnum) {
+        this.populationnum = populationnum;
+    }
+
+    public String getPersonsfzh() {  return personsfzh;  }
+
+    public void setPersonsfzh(String  personsfzh) { this.personsfzh =  personsfzh;  }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 }

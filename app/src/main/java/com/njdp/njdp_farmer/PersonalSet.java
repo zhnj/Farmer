@@ -22,6 +22,10 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
+
 
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
@@ -44,6 +48,8 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.njdp.njdp_farmer.R.id.radioGroup;
+
 public class PersonalSet extends AppCompatActivity implements View.OnClickListener{
     private static final int PHONEEDIT = 1;
     private static final int ADDRESSEDIT = 2;
@@ -62,9 +68,19 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
     EditText et_name;
     EditText et_QQ;
     EditText et_weixin;
+
+    EditText et_personsfzh;
+    EditText et_populationnum;
+    EditText et_farmlandarea;
+
     private SQLiteHandler db;
     private boolean isRegister;
     private boolean uploadUserName;
+    RadioButton malebutton;
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +99,8 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
             window.setNavigationBarColor(Color.TRANSPARENT);
         }
         setContentView(R.layout.activity_personal_set);
+
+
         // Progress dialog
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
@@ -105,6 +123,11 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
         getback = (ImageButton)super.findViewById(R.id.getback);
         editFinish = (Button)super.findViewById(R.id.btn_editFinish);
         tv_phone = (TextView)super.findViewById(R.id.phonenum);
+        malebutton = (RadioButton)super.findViewById(R.id.btnMan);
+
+
+
+
         assert tv_phone != null;
         tv_phone.setText(farmer.getTelephone());
         tv_address = (TextView)super.findViewById(R.id.address);
@@ -123,6 +146,16 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
         et_weixin = (EditText)super.findViewById(R.id.weixin);
         assert et_weixin != null;
         et_weixin.setText(farmer.getWeixin());
+        et_personsfzh = (EditText)super.findViewById(R.id.personsfzh);
+        assert et_personsfzh !=null;
+        et_personsfzh.setText(farmer.getPersonsfzh());
+        et_populationnum = (EditText)super.findViewById(R.id.populationnum);
+        assert et_populationnum != null;
+        et_populationnum.setText(farmer.getPopulationnum());
+        et_farmlandarea = (EditText)super.findViewById(R.id.farmlandarea);
+        assert et_farmlandarea !=null;
+        et_farmlandarea.setText(farmer.getFarmlandarea());
+
 
         listenerEvent();
 
@@ -130,6 +163,11 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
         editFinish.setClickable(false);
         editTextIsChange();
     }
+
+
+
+
+
 
     //监听按钮点击事件
     private void listenerEvent()
@@ -139,10 +177,15 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
         setAddress.setOnClickListener(this);
         getback.setOnClickListener(this);
         editFinish.setOnClickListener(this);
+
+
     }
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+
+
+
             case R.id.phonenum:
                 Toast toast = Toast.makeText(getApplicationContext(), "此项信息不允许修改！", Toast.LENGTH_SHORT);
                 toast.show();
@@ -180,6 +223,16 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
                         farmer.setName(et_name.getText().toString());
                         farmer.setQQ(et_QQ.getText().toString());
                         farmer.setWeixin(et_weixin.getText().toString());
+                        if(malebutton.isChecked()==true)
+                            farmer.setSex("男");
+                        else
+                            farmer.setSex("女");
+
+                        farmer.setPersonsfzh(et_personsfzh.getText().toString());
+                        farmer.setPopulationnum(et_populationnum.getText().toString());
+                        farmer.setFarmlandarea(et_farmlandarea.getText().toString());
+
+
                         checkEdit(farmer);
                     }else{
                         error_hint("请输入正确的QQ号！");
@@ -196,7 +249,7 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
     //这是跳转到另一个布局页面返回来的操作
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-    // TODO Auto-generated method stub
+        // TODO Auto-generated method stub
         super.onActivityResult(requestCode, resultCode, data);
         if(resultCode!=RESULT_OK){
             return;
@@ -246,6 +299,10 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
                     params.put("person_qq", farmer.getQQ());
                     params.put("person_weixin", farmer.getWeixin());
                     params.put("person_address", farmer.getAddress());
+                    params.put("person_Sex",farmer.getSex());
+                    params.put("person_sfzh",farmer.getPersonsfzh());
+                    params.put("population_num",farmer.getPopulationnum());
+                    params.put("farmland_area",farmer.getFarmlandarea());
                     return params;
                 }
             };
@@ -272,7 +329,7 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
                 if (status == 0) {
                     //更新Session信息
                     SessionManager session = new SessionManager(getApplicationContext());
-                    session.setUserInfo(farmer.getName(),farmer.getTelephone(),farmer.getQQ(),farmer.getWeixin(),farmer.getAddress());
+                    session.setUserInfo(farmer.getName(),farmer.getTelephone(),farmer.getQQ(),farmer.getWeixin(),farmer.getAddress(),farmer.getSex(),farmer.getPersonsfzh(),farmer.getPopulationnum(),farmer.getFarmlandarea());
                     // Inserting row in users table
                     db.editUser(farmer.getId(), farmer.getName(), farmer.getTelephone(), farmer.getPassword(), farmer.getImageUrl());
                     //为了保存注册时的用户名
@@ -357,6 +414,7 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
+
             }
 
             @Override
@@ -366,7 +424,10 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
 
             @Override
             public void afterTextChanged(Editable s) {
-                if ((s.length() > 0) && (!s.toString().equals(farmer.getName()) || !et_QQ.getText().toString().equals(farmer.getQQ())
+                if ((s.length() > 0) && (!s.toString().equals(farmer.getName()) || !et_personsfzh.getText().toString().equals(farmer.getPersonsfzh())
+                        ||!malebutton.getText().toString().equals(farmer.getSex())
+                        ||!et_populationnum.getText().toString().equals(farmer.getPopulationnum())||!et_farmlandarea.getText().toString().equals(farmer.getFarmlandarea())
+                        ||!et_QQ.getText().toString().equals(farmer.getQQ())
                         || !et_weixin.getText().toString().equals(farmer.getWeixin()) || !tv_address.getText().toString().equals(farmer.getAddress()))) {
                     editFinish.setClickable(true);
                     editFinish.setEnabled(true);
@@ -452,23 +513,23 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
     }
 
     /**
-	 * 监听返回按钮
-	 */
-	@Override
-	public boolean onKeyDown(int keyCode, KeyEvent event) {
+     * 监听返回按钮
+     */
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
 
-		if (keyCode == KeyEvent.KEYCODE_BACK) {
-			if(isRegister){
-				this.finish();
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            if(isRegister){
+                this.finish();
                 Intent intent = new Intent(PersonalSet.this, MainLink.class);
                 intent.putExtra("TOKEN", farmer.getFm_token());
                 startActivity(intent);
                 return true;
-			}
-		}
+            }
+        }
 
-		return super.onKeyDown(keyCode,event);
-	}
+        return super.onKeyDown(keyCode,event);
+    }
 
     //不跟随系统变化字体大小
     @Override

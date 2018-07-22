@@ -62,7 +62,20 @@
             android:singleLine="true"
             android:text="农机查询"
             android:textColor="@drawable/selected_White" />
-
+        <RadioButton
+            android:id="@+id/rb_uav_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:button="@null"
+            android:drawableTop="@drawable/content_chaxun_selector"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:paddingTop="0dp"
+            android:singleLine="true"
+            android:text="无人机查询"
+            android:textColor="@drawable/selected_White" />
         <RadioButton
             android:id="@+id/rb_userInfo"
             android:layout_width="0dp"

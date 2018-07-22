@@ -35,11 +35,19 @@
             android:layout_margin="20dp"
             android:layout_weight="1"
             android:src="@drawable/chaxun" />
+        <ImageView
+            android:onClick="UAVSearchClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:src="@drawable/chaxun" />
 
         <ImageView
             android:onClick="peopleInfoClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
             android:src="@drawable/gerenxinxi" />

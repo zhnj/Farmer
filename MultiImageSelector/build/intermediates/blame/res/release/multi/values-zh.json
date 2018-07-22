@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\values-zh\\values-zh.xml",
+        "outputFile": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 93
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
+                    "file": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 135
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
+                    "file": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 179
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
+                    "file": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 235
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
+                    "file": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 284
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
+                    "file": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 325
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
+                    "file": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 364
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
+                    "file": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 412
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
+                    "file": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\src\\main\\res\\values-zh\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,

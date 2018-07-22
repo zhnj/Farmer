@@ -227,7 +227,7 @@ public class login extends AppCompatActivity {
                     // Create sign in session
                     //根据返回结果区分是普通用户还是政府用户
                     session.setLogin(true,false,token);
-                    session.setUserInfo(farmer.getName(),farmer.getTelephone(),farmer.getQQ(),farmer.getWeixin(),farmer.getAddress());
+                    session.setUserInfo(farmer.getName(),farmer.getTelephone(),farmer.getQQ(),farmer.getWeixin(),farmer.getAddress(),farmer.getSex(),farmer.getPersonsfzh(),farmer.getPopulationnum(),farmer.getFarmlandarea());
                     // Inserting row in users table
                     db.addUser(farmer.getId(), farmer.getName(), farmer.getTelephone(), farmer.getPassword(), farmer.getImageUrl());
                     //Launch main activity

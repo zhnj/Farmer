@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "D:\\ASWork\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

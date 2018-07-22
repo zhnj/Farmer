@@ -19,9 +19,13 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ExpandableListView;
 import android.widget.ImageButton;
+import android.widget.RatingBar;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -47,11 +51,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class FarmerLandList extends AppCompatActivity {
+public class FarmerLandList extends AppCompatActivity implements IControl {
     private static final int FARMLAND_EDIT = 1;
     private final String TAG = "FarmLandList";
     private final String[][] cropsType = new String[][]{{"H","收割"}, {"C", "耕作"}, {"S", "播种"},
-            {"WH", "小麦"}, {"CO", "玉米"}, {"RC", "水稻"}, {"GR", "谷物"}, {"OT", "其他"}, {"SS", "深松"}, {"HA", "平地"}};
+            {"WH", "小麦"}, {"CO", "玉米"}, {"RC", "水稻"}, {"GR", "谷物"},{"OT", "其他"}, {"SS", "深松"}, {"HA", "平地"}};
     private ExpandableListView listView;
     private List<String> group;
     private List<List<FarmlandInfo>> child;
@@ -61,6 +65,10 @@ public class FarmerLandList extends AppCompatActivity {
     private ProgressDialog pDialog;
     private String token;
     private int isEditNow=-1;
+    //private RatingBar ratingBar;
+    // private TextView textView;
+    // private EditText etpingjia;
+    //private Button btnsubmit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +87,15 @@ public class FarmerLandList extends AppCompatActivity {
             window.setNavigationBarColor(Color.TRANSPARENT);
         }
         setContentView(R.layout.activity_farmer_land_list);
+
+
+
+
+
+
+
+
+
 
         //初始化参数及控件
         farmlandInfoList = new ArrayList<>();
@@ -127,6 +144,8 @@ public class FarmerLandList extends AppCompatActivity {
         //为spinner绑定监听器
         spinner.setOnItemSelectedListener(new SpinnerListener());
         spinner.setSelection(5);
+
+
         //进度条
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
@@ -154,6 +173,7 @@ public class FarmerLandList extends AppCompatActivity {
         //刷新界面
         if(group.size() >= 0) {
             FarmAdapter adapter = new FarmAdapter(FarmerLandList.this, group, child);
+            adapter.setControl(this);
             listView.setAdapter(adapter);
             listView.setGroupIndicator(null);  //不显示向下的箭头
         }
@@ -190,7 +210,7 @@ public class FarmerLandList extends AppCompatActivity {
                     farmlandInfos.add(f);
                 }
             }
-            /**
+            /*
              * 初始化列表数据
              */
             initData();
@@ -231,6 +251,8 @@ public class FarmerLandList extends AppCompatActivity {
             menu.add(0, 1, 0, "修改");
             menu.add(1, 2, 0, "删除" );
 //            menu.add(1, 3, 0, "全部删除" );
+
+
         }
     }
 
@@ -329,6 +351,7 @@ public class FarmerLandList extends AppCompatActivity {
                 }
                 break;
         }
+
     }
 
     //删除发布的农田信息
@@ -462,8 +485,8 @@ public class FarmerLandList extends AppCompatActivity {
                 }
             }
             if(operation.isEmpty() || crop.isEmpty()){
-                operation = "未知";
-                crop = "";
+                operation = "植保";
+                crop = "所有";
             }
         }else {
             operation = "未知";
@@ -512,5 +535,11 @@ public class FarmerLandList extends AppCompatActivity {
         View view = findViewById(R.id.root_div);
         assert view != null;
         view.setBackgroundResource(0); //释放背景图片
+    }
+
+    @Override
+    public void btnClick(String info) {
+        Toast t = Toast.makeText(this,info,Toast.LENGTH_LONG);
+        t.show();
     }
 }

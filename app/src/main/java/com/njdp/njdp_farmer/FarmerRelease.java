@@ -100,7 +100,7 @@ public class FarmerRelease extends AppCompatActivity {
     private TextView tv1;
     private EditText croptype, area, price, blocktype, starttime, endtime, remark;
     private EditText address, addresspic;
-    private RadioButton rbH, rbC, rbS;
+    private RadioButton rbH, rbC, rbS, rbF;
     private Button releaseEditFinish;
     private ImageButton getback=null;
     private boolean firstSearchBaiduGPS;
@@ -173,6 +173,7 @@ public class FarmerRelease extends AppCompatActivity {
         rbH=(RadioButton)this.findViewById(R.id.rbH);   //收割Harvest
         rbC=(RadioButton)this.findViewById(R.id.rbC);   //耕作Cultivation
         rbS=(RadioButton)this.findViewById(R.id.rbS);   //播种Seeding
+        rbF=(RadioButton)this.findViewById(R.id.rbF);   //植保
         rbH.setChecked(true);
         croptype.setText("小麦");
         typeTitle = "选择作物类型";
@@ -185,6 +186,7 @@ public class FarmerRelease extends AppCompatActivity {
             rbH.setClickable(false);
             rbC.setClickable(false);
             rbS.setClickable(false);
+            rbF.setClickable(false);
             croptype.setClickable(false);
             if(farmlandInfo.getCrops_kind().substring(0,1).equals("H")){
                 rbH.setChecked(true);
@@ -193,9 +195,15 @@ public class FarmerRelease extends AppCompatActivity {
                 tv1.setText("耕作类型");
                 rbC.setChecked(true);
                 croptype.setText(cultivation[indexArry(cultivation1, farmlandInfo.getCrops_kind().substring(1,3))]);
-            } else {
+            } else if(farmlandInfo.getCrops_kind().substring(0,1).equals("S")){
                 rbS.setChecked(true);
                 croptype.setText(crops[indexArry(crops1, farmlandInfo.getCrops_kind().substring(1,3))]);
+
+            }else {
+                rbF.setChecked(true);
+                //croptype.setText(crops[indexArry(crops1, farmlandInfo.getCrops_kind().substring(1,3))]);
+                tv1.setVisibility(View.GONE);
+                croptype.setVisibility(View.GONE);
             }
             area.setText(String.valueOf(farmlandInfo.getArea()));
             price.setText(String.valueOf(farmlandInfo.getUnit_price()));
@@ -245,6 +253,7 @@ public class FarmerRelease extends AppCompatActivity {
             rbH.setOnClickListener(new RadioClickListener());
             rbC.setOnClickListener(new RadioClickListener());
             rbS.setOnClickListener(new RadioClickListener());
+            rbF.setOnClickListener(new RadioClickListener());
         }
 
         releaseEditFinish.setEnabled(false);
@@ -292,6 +301,8 @@ public class FarmerRelease extends AppCompatActivity {
                     MyDialog dialogFragment1 = MyDialog.newInstance(
                             "选择结束日期", "农田发布");
                     dialogFragment1.show(getFragmentManager(), "选择日期");
+
+
                     break;
                 case R.id.getback:
                     mSearch.destroy();
@@ -377,6 +388,8 @@ public class FarmerRelease extends AppCompatActivity {
                     typeArray = crops;
                     croptype.setText("小麦");
                     croptype.setHint("请选择农作物种类");
+                    tv1.setVisibility(View.VISIBLE);
+                    croptype.setVisibility(View.VISIBLE);
                     break;
                 case R.id.rbC:
                     tv1.setText("耕作类型");
@@ -384,7 +397,16 @@ public class FarmerRelease extends AppCompatActivity {
                     typeArray = cultivation;
                     croptype.setText("深松");
                     croptype.setHint("请选择耕作类型");
+                    tv1.setVisibility(View.VISIBLE);
+                    croptype.setVisibility(View.VISIBLE);
                     break;
+                case R.id.rbF:
+                    croptype.setText("所有");
+                    tv1.setVisibility(View.GONE);
+                    croptype.setVisibility(View.GONE);
+                    break;
+
+
             }
         }
     }
@@ -444,9 +466,11 @@ public class FarmerRelease extends AppCompatActivity {
                     }else if(rbS.isChecked()){
                         crops_kind = "S";
                         crops_kind += crops1[indexArry(typeArray, croptype.getText().toString())];
-                    }else {
+                    }else if(rbC.isChecked()){
                         crops_kind = "C";
                         crops_kind += cultivation1[indexArry(typeArray, croptype.getText().toString())];
+                    }else{
+                        crops_kind = "FSY";
                     }
                     farmlandInfo.setCrops_kind(crops_kind);
                     params.put("Farmlands_crops_kind", farmlandInfo.getCrops_kind());
@@ -782,7 +806,7 @@ public class FarmerRelease extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 if ((s.length() > 0) && !TextUtils.isEmpty(croptype.getText()) && !TextUtils.isEmpty(price.getText()) && !TextUtils.isEmpty(address.getText())
-                         && !TextUtils.isEmpty(starttime.getText()) && !TextUtils.isEmpty(endtime.getText())) {
+                        && !TextUtils.isEmpty(starttime.getText()) && !TextUtils.isEmpty(endtime.getText())) {
                     releaseEditFinish.setClickable(true);
                     releaseEditFinish.setEnabled(true);
                 } else {
@@ -811,7 +835,7 @@ public class FarmerRelease extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 if ((s.length() > 0) && !TextUtils.isEmpty(area.getText()) && !TextUtils.isEmpty(croptype.getText()) && !TextUtils.isEmpty(address.getText())
-                         && !TextUtils.isEmpty(starttime.getText()) && !TextUtils.isEmpty(endtime.getText())) {
+                        && !TextUtils.isEmpty(starttime.getText()) && !TextUtils.isEmpty(endtime.getText())) {
                     releaseEditFinish.setClickable(true);
                     releaseEditFinish.setEnabled(true);
                 } else {

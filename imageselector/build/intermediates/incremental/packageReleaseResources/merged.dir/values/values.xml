@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cp_bgcolor">#f1f1f1</color>
+    <color name="cp_black">#000000</color>
+    <color name="cp_blue">#45c3f2</color>
+    <color name="cp_canlendar_text_color">#323232</color>
+    <color name="cp_components_dialogbj">#5045c3f2</color>
+    <color name="cp_dialog_button_press">#10000000</color>
+    <color name="cp_dialog_button_unpress">#FFFFFFFF</color>
+    <color name="cp_dialogbj">#0045c3f2</color>
+    <color name="cp_gray">#808080</color>
+    <color name="cp_green">#40c649</color>
+    <color name="cp_huise">#f7f6f6</color>
+    <color name="cp_lime">#00FF00</color>
+    <color name="cp_orange">#FFA500</color>
+    <color name="cp_red">#FF0000</color>
+    <color name="cp_remark">#555555</color>
+    <color name="cp_white">#FFFFFF</color>
+    <declare-styleable name="ImageSelectorView"><attr format="reference|string" name="selectorview_caption"/><attr format="reference|string" name="selectorview_discription"/><attr format="integer" name="selectorview_maxselectsize"/><attr format="boolean" name="selectorview_viewmodel"/></declare-styleable>
+    <drawable name="top_title">#E2943C</drawable>
+    <string name="app_name">ImageSelector</string>
+    <style name="cp_components_dialogNoTitle" parent="@android:style/Theme.Dialog">
+
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- dim:模糊的 阴影效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 背景图片的大小也影响窗口的大小 -->
+        <item name="android:windowBackground">@color/cp_components_dialogbj</item>
+    </style>
+    <style name="cp_components_ios_dialogNoTitle" parent="@android:style/Theme.Dialog">
+
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- dim:模糊的 阴影效果 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 背景图片的大小也影响窗口的大小 -->
+        <item name="android:windowBackground">@color/cp_components_dialogbj</item>
+    </style>
+    <style mce_bogus="1" name="cp_dialogWindowAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/cp_components_anim_enter</item>
+        <item name="android:windowExitAnimation">@anim/cp_components_anim_exit</item>
+    </style>
+</resources>

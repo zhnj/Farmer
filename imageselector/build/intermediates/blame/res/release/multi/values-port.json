@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\values-port\\values-port.xml",
+        "outputFile": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "D:\\ASWork\\NJDP_farmer\\imageselector\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-port\\values-port.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\values-port\\values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

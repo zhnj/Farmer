@@ -215,36 +215,121 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 
-        <RelativeLayout
+        <!-- <RelativeLayout
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:layout_height="5dp"
+             android:visibility="invisible">
+
+             <TextView
+                 android:id="@+id/create_tiem"
+                 android:layout_width="95dp"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft="10dp"
+                 android:text="补充说明 "
+                 android:textSize="16sp" />
+             <EditText
+                 style="@style/Register_style"
+                 android:id="@+id/update_time"
+                 android:textCursorDrawable="@drawable/login_cursor"
+                 android:background="@drawable/login_edit_changecolor"
+                 android:paddingLeft="5dp"
+                 android:textSize="16sp"
+                 android:maxLength="100"
+                 android:hint="其他备注信息" />
+         </RelativeLayout>
+
+         <View
+             style="@style/Register_HorizontalLine_style"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true"
+             android:visibility="invisible"/>
+             -->
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:gravity="center_vertical"
-            android:layout_height="5dp"
-            android:visibility="invisible">
+            android:layout_gravity="center_vertical"
+            android:layout_height="40dp">
 
             <TextView
-                android:id="@+id/create_tiem"
-                android:layout_width="95dp"
+                android:id="@+id/pingjia"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
-                android:text="补充说明 "
-                android:textSize="16sp" />
-            <EditText
-                style="@style/Register_style"
-                android:id="@+id/update_time"
-                android:textCursorDrawable="@drawable/login_cursor"
-                android:background="@drawable/login_edit_changecolor"
-                android:paddingLeft="5dp"
+                android:text="作业评价："
                 android:textSize="16sp"
-                android:maxLength="100"
-                android:hint="其他备注信息" />
-        </RelativeLayout>
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"/>
 
+            <RatingBar
+                android:id="@+id/fivestars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="0"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:isIndicator="false"
+                android:stepSize="1"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
         <View
             style="@style/Register_HorizontalLine_style"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:visibility="invisible"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="60dp">
+
+            <!--
+             android:textCursorDrawable="@drawable/login_cursor"
+             android:background="@drawable/login_edit_changecolor"
+              style="@style/Register_style"
+               android:lines="4"
+                android:minLines="1"
+            -->
+            <EditText
+
+                android:id="@+id/et_pingyu"
+                style="@style/Register_style"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/tv3"
+                android:background="@drawable/login_edit_changecolor"
+                android:textCursorDrawable="@drawable/login_cursor"
+                android:textSize="16sp" />
+            />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+            <Button
+                android:id="@+id/btn_submit"
+                android:background="@drawable/button_normal_selector"
+                android:text="提交"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp" />
+        </RelativeLayout>
+
+        <View
+            style="@style/Register_HorizontalLine_style"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
     </LinearLayout>
 
 </RelativeLayout>
+

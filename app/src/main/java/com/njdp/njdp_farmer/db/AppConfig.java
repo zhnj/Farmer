@@ -8,8 +8,8 @@ package com.njdp.njdp_farmer.db;
 public class AppConfig {
     //服务器地址
     //public static String URL_IP="http://211.68.180.9:88/"; //BaoDing, floor 4
-    //public static String URL_IP="http://211.68.183.50:88/"; //BaoDing BigDataCenter
-    public static String URL_IP="http://218.12.43.229:81/"; //ShiJiaZhuang
+    public static String URL_IP="http://211.68.183.50:88/"; //BaoDing BigDataCenter
+    //public static String URL_IP="http://218.12.43.229:81/"; //ShiJiaZhuang
     // 登录 url
     public static String URL_LOGIN = URL_IP + "appLogin";
     // 注册 url
@@ -60,4 +60,12 @@ public class AppConfig {
     public static String URL_FARMLAND_URGENCY_EDIT = URL_IP + "app/gov/UrgencyFarmland/update";
     //紧急农田删除
     public static String URL_FARMLAND_URGENCY_DEL = URL_IP + "app/gov/UrgencyFarmland/destroy";
+
+    public static String JAVAURL_IP="http://211.68.183.50:8088/";
+    public static String URL_FARMLAND_PINGJIA=JAVAURL_IP+"Mobile/farmer/pingjia";//作业的评价
+
+    //周边可用无人机查询
+    public static String URL_UAV_SEARCH=URL_IP+"app/uav/searchCompany";
+    //天气查询接口
+    public static String URL_WEATHER_ADDRESS=URL_IP+"app/getWeatherAddress";
 }

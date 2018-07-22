@@ -17,6 +17,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -58,8 +59,9 @@ public class PersonalInfoFrame extends Fragment implements View.OnClickListener 
     private NormalUtil nutil=new NormalUtil();
     //所有监听的控件
     private com.njdp.njdp_farmer.changeDefault.CircleImageView userImage;
-    TextView userName, telephone, qq, weixin, address;
+    TextView userName, telephone, qq, weixin, address, personsfzh, populationnum, farmlandarea;
     Button personalEdit, resetPWD;
+    TextView sex;
     View view;
     private ProgressDialog pDialog;
     private String token;
@@ -136,6 +138,7 @@ public class PersonalInfoFrame extends Fragment implements View.OnClickListener 
 
         userName = (TextView) view.findViewById(R.id.tv_user_name);
         userName.setText(session.getName());
+
         telephone = (TextView) view.findViewById(R.id.tv_phonenum);
         telephone.setText(session.getTelephone());
         qq = (TextView) view.findViewById(R.id.tv_qq);
@@ -153,6 +156,18 @@ public class PersonalInfoFrame extends Fragment implements View.OnClickListener 
         pDialog = new ProgressDialog(getActivity());
         pDialog.setCancelable(false);
 
+        sex= (TextView)view .findViewById(R.id.tv_male);
+        sex.setText(session.getSex());
+
+        personsfzh = (TextView)view.findViewById(R.id.tv_personsfzh);
+        personsfzh.setText(session.getPersonsfzh());
+        populationnum = (TextView)view.findViewById(R.id.tv_populationnum);
+        populationnum.setText(session.getPopulationnum());
+        farmlandarea = (TextView)view.findViewById(R.id.tv_farmlandarea);
+        farmlandarea.setText(session.getFarmlandarea());
+
+
+
         initOnClick();
     }
 
@@ -160,6 +175,7 @@ public class PersonalInfoFrame extends Fragment implements View.OnClickListener 
         personalEdit.setOnClickListener(this);
         resetPWD.setOnClickListener(this);
         //myMessage.setOnClickListener(this);
+
     }
 
     @Override
@@ -193,8 +209,13 @@ public class PersonalInfoFrame extends Fragment implements View.OnClickListener 
         }
         weixin.setText(farmer.getWeixin());
         address.setText(farmer.getAddress());
+        sex.setText(farmer.getSex());
+        personsfzh.setText(farmer.getPersonsfzh());
+        populationnum.setText(farmer.getPopulationnum());
+        farmlandarea.setText(farmer.getFarmlandarea());
+
         //更新Session信息
-        session.setUserInfo(farmer.getName(),farmer.getTelephone(),farmer.getQQ(),farmer.getWeixin(),farmer.getAddress());
+        session.setUserInfo(farmer.getName(),farmer.getTelephone(),farmer.getQQ(),farmer.getWeixin(),farmer.getAddress(),farmer.getSex(),farmer.getPersonsfzh(),farmer.getPopulationnum(),farmer.getFarmlandarea());
     }
 
     //这是跳转到另一个布局页面返回来的操作
@@ -222,6 +243,12 @@ public class PersonalInfoFrame extends Fragment implements View.OnClickListener 
                 }
                 weixin.setText(farmer.getWeixin());
                 address.setText(farmer.getAddress());
+
+                sex.setText(farmer.getSex());
+
+                personsfzh.setText(farmer.getPersonsfzh());
+                populationnum.setText(farmer.getPopulationnum());
+                farmlandarea.setText(farmer.getFarmlandarea());
                 if(new File(path).exists()) {
                     Uri uri = Uri.parse(path);
                     userImage.setImageURI(null);
@@ -282,6 +309,14 @@ public class PersonalInfoFrame extends Fragment implements View.OnClickListener 
                     farmer.setId(user.getInt("fm_id"));
                     farmer.setName(user.getString("person_name"));
                     farmer.setTelephone(user.getString("person_phone"));
+
+                    //添加
+                    farmer.setSex(user.getString("person_Sex"));
+                    farmer.setPersonsfzh(user.getString("person_sfzh"));
+                    farmer.setPopulationnum(user.getString("population_num"));
+                    farmer.setFarmlandarea(user.getString("farmland_area")+"             亩");
+
+
                     if(user.getString("person_photo").equals("null")){
                         farmer.setImageUrl("未设置");
                     }else {

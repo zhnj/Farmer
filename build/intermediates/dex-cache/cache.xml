@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\baidumapapi_util_v3_7_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9ec067777962d6ad4b7d4c0e1aff93e83180d207">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_util_v3_7_1_472527c2f5a6ce961d67bbcf30e81a7bd23ba55c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\baidumapapi_map_v3_7_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="29595e6b2f19f7a79cefe7269d1662333feeab45">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_map_v3_7_1_d654220a66bab2ae4bbcffe1a29caad7b427ab42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d7c55bb47bd4acc4396154f9ff03208d59c26fd">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c123fe02626976f4469081891ff717275a5bab39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\lbsCoreSDK.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cdd787b04259b98df6208e089d3ac5a50cbca463">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\lbsCoreSDK_10c587fcbc317a579091180e76d252e124b46c46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha7\constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha7_2f3f58fc7c6e598615e321c08864503456428a63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\baidumapapi_cloud_v3_7_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fecf060a9ea56960976400e922d1e5c8cd8b6fd2">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_cloud_v3_7_1_6d3145bb016d0e9b6a951bda7ae9c64749bc1480\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_71e168ee20230bd4d8c6763bdecc303cfed15001\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\locSDK_6.23.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c477374453afd5ce824bc3b8ce68fe0e17b63b15">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.23_834efce903fb9772d8e80d777069d6f723033265\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-3.2.0_26367d3ce420eab41661c7071871eb1e8d823c5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\baidumapapi_radar_v3_7_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c8da9b62f066eb66be4186def8d5697329081672">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_radar_v3_7_1_832559ef4954d21a97b092d3dff9a9bbb8daebb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_46beabe57e36c78bfa6cbbe1b5a7133cecb3c69b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\baidumapapi_search_v3_7_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="682cacce5564412cda8c29bf0e405c474e773379">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_search_v3_7_1_450dd026a5451aad16bc73c4f3be41cec76ce4c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\volley-library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley-library-1.0.19_068155e4a3e5b3739c4f92b745eca59e69d6930f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\4158ae16937abbfb3480234645a8992141ce6657\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cb561c80e82bafdd2c3804f3926d41c5bfbb0813\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\baidumapapi_base_v3_7_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="977a8dfd855077c6bfcfb44adce39927e0397e66">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_base_v3_7_1_df9da91186032ff7dce68eb44e1dc4bc8c075e93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\androidstudio\NJDP_farmer\app\libs\okhttputils-2_4_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="24e4c1fc13121896309ed2cb5d34611305389050">
+        <dex dex="F:\androidstudio\NJDP_farmer\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttputils-2_4_1_0b368fa6ff5073c47cac168bcbd8d4bb7d3be6c3\classes.dex" />
+    </item>
+
+</items>

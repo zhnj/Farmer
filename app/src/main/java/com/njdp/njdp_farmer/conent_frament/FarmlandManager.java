@@ -72,7 +72,7 @@ public class FarmlandManager extends Fragment implements View.OnClickListener {
             //runnable = new Runnable(){
             //    @Override
             //    public void run() {
-                    // 在此处添加执行的代码
+            // 在此处添加执行的代码
             //        getFarmlandInfos();
             //        handler.postDelayed(this, 30000);// 30s后执行this，即runable
             //    }
@@ -214,6 +214,8 @@ public class FarmlandManager extends Fragment implements View.OnClickListener {
                         temp.setRemark(object.getString("Farmlands_remark").replace("null",""));
                         temp.setCreatetime(object.getString("created_at"));
                         temp.setUpdatetime(object.getString("updated_at"));
+                        temp.setPingJia(object.getString("Farmlands_pingjia"));
+                        temp.setStartCount(object.getString("Pingjia_StartCount"));
                         AgentApplication.farmlandInfos.add(temp);
                     }
                     //myrelease.setText("共发布了" + jObjs.length() + "条信息，点击查看");

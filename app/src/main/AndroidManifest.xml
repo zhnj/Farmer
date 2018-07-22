@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.njdp.njdp_farmer">
+    package="com.njdp.njdp_farmer"
+    >
 
     <!-- 联网 -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -128,7 +129,7 @@
         <activity
             android:name=".MainPageUrgency"
             android:label="@string/urgency"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".UrgencyList"
             android:screenOrientation="portrait" />
@@ -154,8 +155,9 @@
         <!-- 地图密钥 -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="31dCRj6WmM8spHFHHuNKoGDqig6GD5DN" />
+            android:value="4YP5ux3oKvWSMmAIF1Hvg6cSTSnBzAhS" />
 
+        <activity android:name=".UAVListActivity"></activity>
     </application>
 
 </manifest>

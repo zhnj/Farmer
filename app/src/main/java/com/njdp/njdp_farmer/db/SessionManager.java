@@ -38,6 +38,13 @@ public class SessionManager {
     private static final  String KEY_WEIXIN="WeiXin";
 
     private static final  String KEY_ADDRESS="Address";
+    private  static final String KEY_SEX="Sex";
+
+    private static final  String KEY_PERSONSFZH="Personsfzh";
+
+    private static final  String KEY_POPULATIONNUM="Populationnum";
+
+    private static final  String KEY_FARMLANDAREA="Farmlandarea";
 
     public SessionManager(Context context) {
         this._context = context;
@@ -58,7 +65,7 @@ public class SessionManager {
     }
 
     //缓存用户信息
-    public void setUserInfo(String name, String telephone, String qq, String weixin, String address){
+    public void setUserInfo(String name, String telephone, String qq, String weixin, String address, String sex, String personsfzh , String populationnum, String farmlandarea){
 
         editor = pref.edit();
         editor.putString(KEY_NAME, name);
@@ -66,6 +73,10 @@ public class SessionManager {
         editor.putString(KEY_QQ, qq);
         editor.putString(KEY_WEIXIN, weixin);
         editor.putString(KEY_ADDRESS, address);
+        editor.putString(KEY_SEX,sex);
+        editor.putString(KEY_PERSONSFZH, personsfzh);
+        editor.putString(KEY_POPULATIONNUM, populationnum);
+        editor.putString(KEY_FARMLANDAREA, farmlandarea);
         // commit changes
         editor.apply();
 
@@ -102,5 +113,17 @@ public class SessionManager {
 
     public String getAddress(){
         return pref.getString(KEY_ADDRESS, "");
+    }
+    public String getSex(){  return pref.getString(KEY_SEX,""); }
+    public String getPersonsfzh(){
+        return pref.getString(KEY_PERSONSFZH, "");
+    }
+
+    public String getPopulationnum(){
+        return pref.getString(KEY_POPULATIONNUM, "");
+    }
+
+    public String getFarmlandarea(){
+        return pref.getString(KEY_FARMLANDAREA, "");
     }
 }

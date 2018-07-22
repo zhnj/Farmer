@@ -76,10 +76,18 @@ public class MainLink extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //无人机查询
+    public void UAVSearchClick(View v)
+    {
+        Intent intent = new Intent(MainLink.this, mainpages.class);
+        intent.putExtra("openModule", 3);
+        intent.putExtra("TOKEN", token);
+        startActivity(intent);
+    }
     //个人信息
     public void peopleInfoClick(View v){
         Intent intent = new Intent(MainLink.this, mainpages.class);
-        intent.putExtra("openModule", 3);
+        intent.putExtra("openModule", 4);
         intent.putExtra("TOKEN", token);
         startActivity(intent);
     }

@@ -104,6 +104,12 @@ public class mainpages extends AppCompatActivity {
         FarmMachineSearch farmMachineSearch = new FarmMachineSearch();
         farmMachineSearch.setArguments(bundle1);
         content_list.add(farmMachineSearch);
+        //无人机查询界面
+        //农机查询界面
+        progressDialog.setContent("正在准备无人机机信息！");
+        UAVMachineSearch uavMachineSearch = new UAVMachineSearch();
+        uavMachineSearch.setArguments(bundle1);
+        content_list.add(uavMachineSearch);
         //个人信息界面，需要用到农田发布的数据，先加载
         progressDialog.setContent("正在准备个人数据！");
         PersonalInfoFrame personalInfoFrame = new PersonalInfoFrame();
@@ -119,7 +125,7 @@ public class mainpages extends AppCompatActivity {
         contentViewPager = (ContentViewPager) findViewById(R.id.content_viewpager);
         RadioGroup contentradiogroup = (RadioGroup) findViewById(R.id.content_radiogroup);
         //预加载一页
-        contentViewPager.setOffscreenPageLimit(3);
+        contentViewPager.setOffscreenPageLimit(4);
         contentViewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int i) {
@@ -143,8 +149,11 @@ public class mainpages extends AppCompatActivity {
                     case R.id.rb_search:
                         contentViewPager.setCurrentItem(1);
                         break;
-                    case R.id.rb_userInfo:
+                    case R.id.rb_uav_search:
                         contentViewPager.setCurrentItem(2);
+                        break;
+                    case R.id.rb_userInfo:
+                        contentViewPager.setCurrentItem(3);
                         break;
                 }
             }
@@ -153,6 +162,9 @@ public class mainpages extends AppCompatActivity {
             contentradiogroup.check(R.id.rb_release);
         }else if(page == 2){
             contentradiogroup.check(R.id.rb_search);
+        }
+        else if(page == 3) {
+            contentradiogroup.check(R.id.rb_uav_search);
         }else {
             contentradiogroup.check(R.id.rb_userInfo);
         }
@@ -380,7 +392,7 @@ public class mainpages extends AppCompatActivity {
                                     public void onClick(DialogInterface dialogInterface, int i) {
                                         //填充数据
                                         initdata();
-                                        if(openModule == 1 || openModule == 2 || openModule == 3){
+                                        if(openModule == 1 || openModule == 2 || openModule == 3|| openModule == 4){
                                             initview(openModule);//填充布局
                                         }
                                         else{
@@ -403,7 +415,7 @@ public class mainpages extends AppCompatActivity {
                     AgentApplication.permission_READ_PHONE_STATE = true;
                     //填充数据
                     initdata();
-                    if(openModule == 1 || openModule == 2 || openModule == 3){
+                    if(openModule == 1 || openModule == 2 || openModule == 3 || openModule == 4){
                         initview(openModule);//填充布局
                     }
                     else{
@@ -486,7 +498,7 @@ public class mainpages extends AppCompatActivity {
                 }
                 //填充数据
                 initdata();
-                if(openModule == 1 || openModule == 2 || openModule == 3){
+                if(openModule == 1 || openModule == 2 || openModule == 3|| openModule == 4){
                     initview(openModule);//填充布局
                 }
                 else{
