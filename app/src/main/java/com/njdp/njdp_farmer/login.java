@@ -43,7 +43,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-
+//git 测试
 public class login extends AppCompatActivity {
 
     private EditText text_username=null;
