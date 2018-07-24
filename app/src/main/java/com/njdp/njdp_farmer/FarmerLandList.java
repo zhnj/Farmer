@@ -486,7 +486,7 @@ public class FarmerLandList extends AppCompatActivity implements IControl {
             }
             if(operation.isEmpty() || crop.isEmpty()){
                 operation = "植保";
-                crop = "所有";
+                crop = "";
             }
         }else {
             operation = "未知";
