@@ -314,7 +314,7 @@ public class PersonalInfoFrame extends Fragment implements View.OnClickListener 
                     farmer.setSex(user.getString("person_Sex"));
                     farmer.setPersonsfzh(user.getString("person_sfzh"));
                     farmer.setPopulationnum(user.getString("population_num"));
-                    farmer.setFarmlandarea(user.getString("farmland_area")+"             亩");
+                    farmer.setFarmlandarea(user.getString("farmland_area"));
 
 
                     if(user.getString("person_photo").equals("null")){

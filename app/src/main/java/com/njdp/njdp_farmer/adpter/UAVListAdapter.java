@@ -94,7 +94,7 @@ public class UAVListAdapter extends BaseExpandableListAdapter {
         if(!group.get(groupPosition)[0].equals("")) {
             holder.imageView.setImageURI(Uri.parse(group.get(groupPosition)[0]));
         }
-        holder.tv_name.setText("机主：" + group.get(groupPosition)[1]);
+        holder.tv_name.setText("公司：" + group.get(groupPosition)[1]);
         holder.tv_range.setText("距离：" + group.get(groupPosition)[2] + "km");
         holder.tv_phone.setText("电话：" + group.get(groupPosition)[3]);
         return convertView;

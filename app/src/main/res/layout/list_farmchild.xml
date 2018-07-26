@@ -14,24 +14,26 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="26dp"
+            android:layout_height="1dp"
             android:gravity="center_vertical"
             android:layout_marginTop="5dp">
             <TextView
                 android:id="@+id/crop_kind"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="1dp"
                 android:paddingLeft="10dp"
                 android:text="作物类型："
                 android:textSize="16sp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:visibility="invisible"
                 android:layout_weight="1"/>
 
         </LinearLayout>
 
         <View
             style="@style/Register_HorizontalLine_style"
+            android:visibility="invisible"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 

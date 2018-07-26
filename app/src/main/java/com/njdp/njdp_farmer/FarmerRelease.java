@@ -1091,6 +1091,7 @@ public class FarmerRelease extends AppCompatActivity {
                                 LatLng point = converter.convert();
                                 farmlandInfo.setLatitude(String.valueOf(point.latitude));
                                 farmlandInfo.setLongitude(String.valueOf(point.longitude));
+                                error_hint(String.valueOf(point.latitude));
                             }
                         })
                         .setNegativeButton("返回", new DialogInterface.OnClickListener() {

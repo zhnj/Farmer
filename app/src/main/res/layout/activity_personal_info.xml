@@ -201,10 +201,19 @@
                 <TextView
                     android:id="@+id/tv_farmlandarea"
                     style="@style/Register_style"
-                    android:text="       亩"
+                    android:text="       "
                     android:textSize="16sp"
+                    android:layout_toLeftOf="@+id/tttv1"
                     android:layout_toRightOf="@+id/tv9" />
-
+                <TextView
+                    android:id="@+id/tttv1"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="(亩)"
+                    android:textSize="18sp" />
             </RelativeLayout>
 
             <View

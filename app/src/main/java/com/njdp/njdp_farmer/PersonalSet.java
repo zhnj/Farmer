@@ -124,10 +124,11 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
         editFinish = (Button)super.findViewById(R.id.btn_editFinish);
         tv_phone = (TextView)super.findViewById(R.id.phonenum);
         malebutton = (RadioButton)super.findViewById(R.id.btnMan);
-
-
-
-
+        RadioButton btnWoman=(RadioButton)super.findViewById(R.id.btnWoman);
+        if(farmer.getSex().equals("男"))
+            malebutton.setChecked(true);
+        else
+            btnWoman.setChecked(true);
         assert tv_phone != null;
         tv_phone.setText(farmer.getTelephone());
         tv_address = (TextView)super.findViewById(R.id.address);
@@ -424,11 +425,14 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
 
             @Override
             public void afterTextChanged(Editable s) {
-                if ((s.length() > 0) && (!s.toString().equals(farmer.getName()) || !et_personsfzh.getText().toString().equals(farmer.getPersonsfzh())
+                if ((s.length() > 0) && (!s.toString().equals(farmer.getName())
+                        || !et_personsfzh.getText().toString().equals(farmer.getPersonsfzh())
                         ||!malebutton.getText().toString().equals(farmer.getSex())
-                        ||!et_populationnum.getText().toString().equals(farmer.getPopulationnum())||!et_farmlandarea.getText().toString().equals(farmer.getFarmlandarea())
+                        ||!et_populationnum.getText().toString().equals(farmer.getPopulationnum())
+                        ||!et_farmlandarea.getText().toString().equals(farmer.getFarmlandarea())
                         ||!et_QQ.getText().toString().equals(farmer.getQQ())
-                        || !et_weixin.getText().toString().equals(farmer.getWeixin()) || !tv_address.getText().toString().equals(farmer.getAddress()))) {
+                        || !et_weixin.getText().toString().equals(farmer.getWeixin())
+                        || !tv_address.getText().toString().equals(farmer.getAddress()))) {
                     editFinish.setClickable(true);
                     editFinish.setEnabled(true);
                 } else {
@@ -500,6 +504,30 @@ public class PersonalSet extends AppCompatActivity implements View.OnClickListen
             @Override
             public void afterTextChanged(Editable s) {
                 if (!s.toString().equals(farmer.getAddress()) || !et_QQ.getText().toString().equals(farmer.getQQ())
+                        || !et_name.getText().toString().equals(farmer.getName()) || !et_weixin.getText().toString().equals(farmer.getWeixin())) {
+                    farmer.setAddress(s.toString());
+                    editFinish.setClickable(true);
+                    editFinish.setEnabled(true);
+                } else {
+                    editFinish.setEnabled(false);
+                    editFinish.setClickable(false);
+                }
+            }
+        });
+        et_farmlandarea.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (!s.toString().equals(farmer.getFarmlandarea()) || !et_QQ.getText().toString().equals(farmer.getQQ())
                         || !et_name.getText().toString().equals(farmer.getName()) || !et_weixin.getText().toString().equals(farmer.getWeixin())) {
                     farmer.setAddress(s.toString());
                     editFinish.setClickable(true);

@@ -88,15 +88,6 @@ public class FarmerLandList extends AppCompatActivity implements IControl {
         }
         setContentView(R.layout.activity_farmer_land_list);
 
-
-
-
-
-
-
-
-
-
         //初始化参数及控件
         farmlandInfoList = new ArrayList<>();
         farmlandInfos = new ArrayList<>();
