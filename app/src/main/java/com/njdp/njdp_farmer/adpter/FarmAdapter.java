@@ -227,20 +227,14 @@ public class FarmAdapter extends BaseExpandableListAdapter {
 			viewHolder.etpingyu.setVisibility(View.VISIBLE);
 			viewHolder.btn_submit.setEnabled(false);
 			viewHolder.btn_submit.setClickable(false);
-
-
 			//输入是否改变，判断是否禁用按钮
 			viewHolder.etpingyu.addTextChangedListener( new TextWatcher() {
 				@Override
 				public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
 				}
-
 				@Override
 				public void onTextChanged(CharSequence s, int start, int before, int count) {
-
 				}
-
 				@Override
 				public void afterTextChanged(Editable s) {
 					if ((s.length() > 0) || (!"".equals(viewHolder.etpingyu.getText().toString()))){
@@ -252,21 +246,11 @@ public class FarmAdapter extends BaseExpandableListAdapter {
 					}
 				}
 			});
-
-
 		}
-
-
-
-
 		viewHolder.btn_submit.setOnClickListener(new View.OnClickListener() {
 			String tag_string_req = "req_user_edit";
-
 			//当用户提交数据，将评分和评价保存集合
 			// child.get(groupPosition).get(childPosition).getPingJia();
-
-
-
 			@Override
 			public void onClick(View view) {
 
@@ -284,17 +268,16 @@ public class FarmAdapter extends BaseExpandableListAdapter {
 						params.put("FarmLand_id", String.valueOf(farmId));
 						params.put("PingJia", viewHolder.etpingyu.getText().toString());
 						params.put("StartCount", String.valueOf(viewHolder.fivestars.getRating()));
-
 						return params;
 					}
 				};
-
 				strReq.setRetryPolicy(new DefaultRetryPolicy(2000,1,1.0f)); //请求超时时间2S，重复1次
 				// Adding request to request queue
 				AppController.getInstance().addToRequestQueue(strReq,tag_string_req);
+				view.setEnabled(false);
 			}
-		});
 
+		});
 		return convertView;
 	}
 
