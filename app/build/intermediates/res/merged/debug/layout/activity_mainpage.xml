@@ -64,9 +64,8 @@
             android:textColor="@drawable/selected_White" />
         <RadioButton
             android:id="@+id/rb_uav_search"
-            android:layout_width="0dp"
+            android:layout_width="90dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:background="#00000000"
             android:button="@null"
             android:drawableTop="@drawable/content_chaxun_selector"

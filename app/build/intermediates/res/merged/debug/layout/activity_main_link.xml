@@ -37,8 +37,8 @@
             android:src="@drawable/chaxun" />
         <ImageView
             android:onClick="UAVSearchClick"
-            android:layout_width="48dp"
-            android:layout_height="55dp"
+            android:layout_width="60dp"
+            android:layout_height="76dp"
 
             android:src="@drawable/uavchaxun" />
 
