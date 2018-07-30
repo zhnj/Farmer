@@ -30,7 +30,9 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -97,6 +99,7 @@ public class FarmerRelease extends AppCompatActivity {
     private final String TAG = "FarmerRelease";
     private int dateFlag; //0为开始日期，1为结束日期
     //所有监听的控件
+    private RelativeLayout crop_kind_fram;
     private TextView tv1;
     private EditText croptype, area, price, blocktype, starttime, endtime, remark;
     private EditText address, addresspic;
@@ -104,6 +107,8 @@ public class FarmerRelease extends AppCompatActivity {
     private Button releaseEditFinish;
     private ImageButton getback=null;
     private boolean firstSearchBaiduGPS;
+
+    private int tv1H,croptypeH;
 
 
     ////////////////根据地址的经纬度变量///////////////
@@ -168,6 +173,9 @@ public class FarmerRelease extends AppCompatActivity {
             remark.setImeOptions(EditorInfo.IME_ACTION_DONE);
         }
         getback=(ImageButton) this.findViewById(R.id.getback);
+
+        crop_kind_fram=(RelativeLayout)this.findViewById(R.id.crop_kind_fram);
+
         tv1=(TextView)this.findViewById(R.id.tv1);
         TextView top_title = (TextView) this.findViewById(R.id.tv_top_title);
         rbH=(RadioButton)this.findViewById(R.id.rbH);   //收割Harvest
@@ -202,8 +210,7 @@ public class FarmerRelease extends AppCompatActivity {
             }else {
                 rbF.setChecked(true);
                 //croptype.setText(crops[indexArry(crops1, farmlandInfo.getCrops_kind().substring(1,3))]);
-                tv1.setVisibility(View.GONE);
-                croptype.setVisibility(View.GONE);
+                setCropTypeNone();
             }
             area.setText(String.valueOf(farmlandInfo.getArea()));
             price.setText(String.valueOf(farmlandInfo.getUnit_price()));
@@ -237,6 +244,47 @@ public class FarmerRelease extends AppCompatActivity {
             releaseEditFinish.setText("确认修改");
         }
         initOnClick();
+    }
+
+    //隐藏作物类型
+    private void setCropTypeNone() {
+
+        /*
+        LinearLayout.LayoutParams params;
+        params = (LinearLayout.LayoutParams) tv1.getLayoutParams();//获取当前控件的布局对象
+        tv1H=params.height;
+        params.height=1;
+        tv1.setLayoutParams(params);//将设置好的布局参数应用到控件中
+
+        params= (LinearLayout.LayoutParams) croptype.getLayoutParams();//获取当前控件的布局对象
+        croptypeH=params.height;
+        params.height=1;
+        croptype.setLayoutParams(params);//将设置好的布局参数应用到控件中
+        */
+
+        tv1.setVisibility(View.GONE);
+        croptype.setVisibility(View.GONE);
+        crop_kind_fram.setVisibility(View.GONE);
+
+    }
+    //显示作物类型
+    private void setCropTypeShow() {
+
+        /*
+        LinearLayout.LayoutParams params= (LinearLayout.LayoutParams) tv1.getLayoutParams();//获取当前控件的布局对象
+        params.height=tv1H;
+        tv1.setLayoutParams(params);//将设置好的布局参数应用到控件中
+
+        params= (LinearLayout.LayoutParams) croptype.getLayoutParams();//获取当前控件的布局对象
+        params.height=croptypeH;
+        croptype.setLayoutParams(params);//将设置好的布局参数应用到控件中
+          */
+
+
+        tv1.setVisibility(View.VISIBLE);
+        croptype.setVisibility(View.VISIBLE);
+        crop_kind_fram.setVisibility(View.VISIBLE);
+
     }
 
     private void initOnClick() {
@@ -387,8 +435,7 @@ public class FarmerRelease extends AppCompatActivity {
                     typeArray = crops;
                     croptype.setText("小麦");
                     croptype.setHint("请选择农作物种类");
-                    tv1.setVisibility(View.VISIBLE);
-                    croptype.setVisibility(View.VISIBLE);
+                    setCropTypeShow();
                     break;
                 case R.id.rbC:
                     tv1.setText("耕作类型");
@@ -396,13 +443,11 @@ public class FarmerRelease extends AppCompatActivity {
                     typeArray = cultivation;
                     croptype.setText("深松");
                     croptype.setHint("请选择耕作类型");
-                    tv1.setVisibility(View.VISIBLE);
-                    croptype.setVisibility(View.VISIBLE);
+                    setCropTypeShow();
                     break;
                 case R.id.rbF:
                     croptype.setText("所有");
-                    tv1.setVisibility(View.GONE);
-                    croptype.setVisibility(View.GONE);
+                    setCropTypeNone();
                     break;
 
 
