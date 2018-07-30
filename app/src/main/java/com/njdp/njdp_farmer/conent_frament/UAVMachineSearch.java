@@ -704,11 +704,11 @@ public class UAVMachineSearch extends Fragment implements View.OnClickListener {
                     // Posting parameters to url
                     Map<String, String> params = new HashMap<>();
                     params.put("token", token);
-                    params.put("longitude", searchFarmland.getLongitude());
-                    params.put("latitude", searchFarmland.getLatitude());
+                    params.put("Farmlands_longitude", searchFarmland.getLongitude());
+                    params.put("Farmlands_latitude", searchFarmland.getLatitude());
 
-                    //params.put("Search_range", String.valueOf(Search_range));
-                    params.put("Search_range", "100000"); //演示用为1000公里
+                    params.put("Search_range", String.valueOf(Search_range));
+                    //params.put("Search_range", "100000"); //演示用为1000公里
                     return params;
                 }
             };
