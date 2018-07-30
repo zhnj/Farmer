@@ -55,7 +55,7 @@
             android:layout_weight="1"
             android:background="#00000000"
             android:button="@null"
-            android:drawableTop="@drawable/content_chaxun_selector"
+            android:drawableTop="@drawable/content_uavchaxun_selector"
             android:ellipsize="marquee"
             android:gravity="center"
             android:paddingTop="0dp"

@@ -276,7 +276,7 @@
                 android:isIndicator="false"
                 android:stepSize="1"
                 android:layout_marginLeft="5dp"
-                android:progressTint="#000000"
+                android:progressTint="#8A2BE2"
                 />
 
         </LinearLayout>
