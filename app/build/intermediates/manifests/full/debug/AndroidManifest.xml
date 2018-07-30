@@ -164,7 +164,7 @@
         <!-- 地图密钥 -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="4YP5ux3oKvWSMmAIF1Hvg6cSTSnBzAhS" />
+            android:value="VUMw5PnvyGF3fyApaThr4XI1StH7YOny" />
 
         <activity android:name="com.njdp.njdp_farmer.UAVListActivity" />
     </application>

@@ -243,7 +243,6 @@ public class FarmerRelease extends AppCompatActivity {
             remark.setText(farmlandInfo.getRemark());
             releaseEditFinish.setText("确认修改");
         }
-
         initOnClick();
     }
 

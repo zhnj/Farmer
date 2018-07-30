@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:2:1-163:12
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:2:1-162:12
 	package
 		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml
@@ -78,43 +78,43 @@ ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:28:5-73
 	android:name
 		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:28:22-70
 uses-permission#android.permission.CALL_PHONE
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:33:5-69
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:32:5-69
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:33:22-66
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:32:22-66
 uses-permission#android.permission.ACCES_MOCK_LOCATION
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:34:5-78
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:33:5-78
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:34:22-75
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:33:22-75
 uses-permission#com.android.launcher.permission.READ_SETTINGS
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:35:5-85
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:34:5-85
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:35:22-82
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:34:22-82
 uses-permission#android.permission.WAKE_LOCK
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:36:5-68
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:35:5-68
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:36:22-65
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:35:22-65
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:37:5-76
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:36:5-76
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:37:22-73
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:36:22-73
 uses-permission#android.permission.BROADCAST_STICKY
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:38:5-75
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:37:5-75
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:38:22-72
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:37:22-72
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:40:5-81
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:39:5-81
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:40:22-78
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:39:22-78
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:41:5-80
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:40:5-80
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:41:22-77
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:40:22-77
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:42:5-71
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:41:5-71
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:42:22-68
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:41:22-68
 application
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:44:5-161:19
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:43:5-160:19
 MERGED from [NJDP_farmer:MultiImageSelector:unspecified] F:\androidstudio\NJDP_farmer\MultiImageSelector\build\intermediates\bundles\default\AndroidManifest.xml:11:5-12:19
 MERGED from [NJDP_farmer:imageselector:unspecified] F:\androidstudio\NJDP_farmer\imageselector\build\intermediates\bundles\default\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\output\AndroidManifest.xml:29:5-20
@@ -132,213 +132,213 @@ MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.and
 MERGED from [com.basgeekball:awesome-validation:1.1] C:\Users\Administrator\.android\build-cache\e7036ba49027092d7f85b854511853a6cda297cb\output\AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\Administrator\.android\build-cache\4158ae16937abbfb3480234645a8992141ce6657\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:49:9-42
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:48:9-42
 	android:supportsRtl
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:51:9-35
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:50:9-35
 	android:hardwareAccelerated
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:47:9-44
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:46:9-44
 	android:allowBackup
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:46:9-35
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:45:9-35
 	android:icon
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:48:9-45
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:47:9-45
 	android:largeHeap
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:50:9-34
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:49:9-34
 	android:theme
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:52:9-52
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:51:9-52
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:45:9-41
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:44:9-41
 activity#com.njdp.njdp_farmer.login
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:53:9-62:20
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:52:9-61:20
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:55:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:55:13-45
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:54:13-45
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:54:13-34
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:53:13-34
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:57:13-61:29
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:56:13-60:29
 action#android.intent.action.MAIN
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:58:17-69
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:57:17-69
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:58:25-66
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:57:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:59:17-77
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:59:27-74
 activity#com.njdp.njdp_farmer.register
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:63:9-66:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:62:9-65:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:66:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:65:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:65:13-60
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:64:13-60
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:64:13-37
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:63:13-37
 activity#com.njdp.njdp_farmer.register_TermsofService
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:67:9-70:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:66:9-69:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:70:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:69:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:69:13-77
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:68:13-77
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:68:13-52
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:67:13-52
 activity#com.njdp.njdp_farmer.getpassword
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:71:9-74:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:70:9-73:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:74:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:73:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:73:13-63
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:72:13-63
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:72:13-40
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:71:13-40
 activity#com.njdp.njdp_farmer.getpassword2
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:75:9-78:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:74:9-77:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:78:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:77:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:77:13-41
-	android:name
 		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:76:13-41
+	android:name
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:75:13-41
 activity#com.njdp.njdp_farmer.mainpages
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:79:9-82:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:78:9-81:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:82:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:81:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:81:13-61
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:80:13-61
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:80:13-38
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:79:13-38
 activity#com.njdp.njdp_farmer.register_image
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:83:9-86:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:82:9-85:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:86:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:85:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:85:13-66
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:84:13-66
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:84:13-43
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:83:13-43
 activity#me.nereo.multi_image_selector.MultiImageSelectorActivity
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:89:9-92:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:88:9-91:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:92:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:91:13-49
 	android:configChanges
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:91:13-59
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:90:13-59
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:90:13-84
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:89:13-84
 activity#com.njdp.njdp_farmer.PersonalSet
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:95:9-98:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:94:9-97:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:98:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:97:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:97:13-64
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:96:13-64
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:96:13-40
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:95:13-40
 activity#com.njdp.njdp_farmer.SetPhoneNum
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:99:9-101:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:98:9-100:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:101:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:100:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:100:13-40
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:99:13-40
 activity#com.njdp.njdp_farmer.address.AddressSelect
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:102:9-104:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:101:9-103:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:104:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:103:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:103:13-50
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:102:13-50
 activity#com.njdp.njdp_farmer.Edit_Password
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:105:9-107:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:104:9-106:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:107:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:106:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:106:13-42
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:105:13-42
 activity#com.njdp.njdp_farmer.MainLink
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:108:9-110:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:107:9-109:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:110:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:109:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:109:13-37
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:108:13-37
 activity#com.njdp.njdp_farmer.FarmerRelease
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:113:9-115:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:112:9-114:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:115:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:114:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:114:13-42
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:113:13-42
 activity#com.njdp.njdp_farmer.WindowWeather
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:116:9-118:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:115:9-117:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:118:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:117:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:117:13-42
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:116:13-42
 activity#com.njdp.njdp_farmer.AddressPicUp
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:119:9-121:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:118:9-120:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:121:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:120:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:120:13-41
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:119:13-41
 activity#com.njdp.njdp_farmer.FarmerLandList
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:122:9-124:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:121:9-123:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:124:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:123:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:123:13-43
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:122:13-43
 activity#com.njdp.njdp_farmer.MachinesList
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:125:9-127:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:124:9-126:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:127:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:126:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:126:13-41
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:125:13-41
 activity#com.njdp.njdp_farmer.MainPageUrgency
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:129:9-132:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:128:9-131:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:132:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:131:13-49
 	android:label
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:131:13-44
-	android:name
 		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:130:13-44
+	android:name
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:129:13-44
 activity#com.njdp.njdp_farmer.UrgencyList
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:133:9-135:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:132:9-134:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:135:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:134:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:134:13-40
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:133:13-40
 activity#com.njdp.njdp_farmer.UrgencyRelease
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:136:9-138:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:135:9-137:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:138:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:137:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:137:13-43
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:136:13-43
 activity#com.njdp.njdp_farmer.FarmlandUrgencyList
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:139:9-141:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:138:9-140:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:141:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:140:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:140:13-48
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:139:13-48
 activity#com.njdp.njdp_farmer.FarmlandUrgencyRelease
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:142:9-144:52
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:141:9-143:52
 	android:screenOrientation
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:144:13-49
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:143:13-49
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:143:13-51
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:142:13-51
 service#com.baidu.location.f
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:147:9-154:19
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:146:9-153:19
 	android:enabled
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:149:13-35
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:148:13-35
 	android:process
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:150:13-38
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:149:13-38
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:148:13-48
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:147:13-48
 intent-filter#com.baidu.location.service_v2.2
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:151:13-153:29
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:150:13-152:29
 action#com.baidu.location.service_v2.2
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:152:17-74
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:151:17-74
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:152:25-71
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:151:25-71
 meta-data#com.baidu.lbsapi.API_KEY
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:156:9-158:64
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:155:9-157:64
 	android:value
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:158:13-61
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:157:13-61
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:157:13-52
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:156:13-52
 activity#com.njdp.njdp_farmer.UAVListActivity
-ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:160:9-62
+ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:159:9-62
 	android:name
-		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:160:19-50
+		ADDED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml:159:19-50
 uses-sdk
 INJECTED from F:\androidstudio\NJDP_farmer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [NJDP_farmer:AndroidBootstrap:unspecified] F:\androidstudio\NJDP_farmer\AndroidBootstrap\build\intermediates\bundles\default\AndroidManifest.xml:8:5-10:41

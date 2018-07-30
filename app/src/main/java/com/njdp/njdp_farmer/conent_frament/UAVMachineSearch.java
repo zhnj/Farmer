@@ -257,9 +257,11 @@ public class UAVMachineSearch extends Fragment implements View.OnClickListener {
                         e.printStackTrace();
                     }
                     //handler.postDelayed(this, 60000);// 以后每60s后执行this，即runable
+
                 }
             };
             handler.postDelayed(runnable, 1000);// 打开定时器，1s后执行runnable操作
+
             return view;
         } catch (Exception e) {
             e.printStackTrace();

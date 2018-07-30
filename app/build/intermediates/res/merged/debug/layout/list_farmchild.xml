@@ -271,10 +271,14 @@
                 android:layout_height="wrap_content"
                 android:numStars="5"
                 android:rating="0"
+
                 style="?android:attr/ratingBarStyleIndicator"
                 android:isIndicator="false"
                 android:stepSize="1"
-                android:layout_marginLeft="5dp"/>
+                android:layout_marginLeft="5dp"
+                android:progressTint="#000000"
+                />
+
         </LinearLayout>
         <View
             style="@style/Register_HorizontalLine_style"
@@ -301,7 +305,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_toRightOf="@+id/tv3"
                 android:background="@drawable/login_edit_changecolor"
-                android:textCursorDrawable="@drawable/login_cursor"
+
                 android:textSize="16sp" />
             />
 
