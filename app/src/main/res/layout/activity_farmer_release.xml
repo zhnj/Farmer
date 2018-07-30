@@ -111,32 +111,35 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/crop_kind_fram"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:gravity="center_vertical"
-                android:layout_gravity="center_vertical">
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
                 <TextView
                     android:id="@+id/tv1"
                     android:layout_width="95dp"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:layout_marginTop="10dp"
                     android:paddingLeft="10dp"
                     android:text="作物类型"
-                    android:textSize="18sp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true" />
+                    android:textSize="18sp" />
+
                 <EditText
-                    style="@style/Register_style"
                     android:id="@+id/crops_kind"
-                    android:textCursorDrawable="@drawable/login_cursor"
-                    android:background="@drawable/login_edit_changecolor"
-                    android:textSize="16sp"
-                    android:paddingLeft="5dp"
+                    style="@style/Register_style"
                     android:layout_marginRight="20dp"
                     android:layout_toRightOf="@+id/tv1"
+                    android:background="@drawable/login_edit_changecolor"
                     android:editable="false"
+                    android:focusableInTouchMode="false"
                     android:hint="请选择农作物种类"
-                    android:focusableInTouchMode="false"/>
+                    android:paddingLeft="5dp"
+                    android:textCursorDrawable="@drawable/login_cursor"
+                    android:textSize="16sp" />
 
             </RelativeLayout>
 
