@@ -1,27 +1,47 @@
 [
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_button_selector_calendar_white.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\drawable\\cp_button_selector_calendar_white.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
@@ -30,6 +50,102 @@
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_drawable_border_all_gray.xml",
+        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\drawable\\cp_drawable_border_all_gray.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_button_selector_calendar_white.xml",
+        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\drawable\\cp_button_selector_calendar_white.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_button_shadow_radius_selector_green.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\drawable\\cp_button_shadow_radius_selector_green.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_button_shadow_radius_selector_green.xml",
+        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\drawable\\cp_button_shadow_radius_selector_green.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_drawable_border_all_gray.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\drawable\\cp_drawable_border_all_gray.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
@@ -48,16 +164,24 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_button_selector_red.xml",
         "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\drawable\\cp_button_selector_red.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_drawable_border_all_gray.xml",
-        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\drawable\\cp_drawable_border_all_gray.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_button_selector_red.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\drawable\\cp_button_selector_red.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -68,55 +192,51 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_button_selector_calendar_white.xml",
-        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\drawable\\cp_button_selector_calendar_white.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\cp_button_shadow_radius_selector_green.xml",
-        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\drawable\\cp_button_shadow_radius_selector_green.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     }
 ]

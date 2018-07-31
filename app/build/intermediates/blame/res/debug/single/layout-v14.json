@@ -2,5 +2,9 @@
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\fragment_multi_image.xml",
         "source": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\bundles\\default\\res\\layout-v14\\fragment_multi_image.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\layout-v14\\fragment_multi_image.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\bundles\\default\\res\\layout-v14\\fragment_multi_image.xml"
     }
 ]

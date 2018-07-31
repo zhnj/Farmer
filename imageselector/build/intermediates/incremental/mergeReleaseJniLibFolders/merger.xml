@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="F:\androidstudio\NJDP_farmer\imageselector\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="F:\androidstudio\NJDP_farmer\imageselector\src\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\0-bdking\Project\AndroidStudioProjects\FarmerApplication\Farmer\imageselector\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="E:\0-bdking\Project\AndroidStudioProjects\FarmerApplication\Farmer\imageselector\src\release\jniLibs"/></dataSet></merger>

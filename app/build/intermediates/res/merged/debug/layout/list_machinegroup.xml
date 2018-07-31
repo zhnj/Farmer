@@ -11,7 +11,7 @@
             android:id="@+id/imageView"
             android:layout_width="54dp"
             android:layout_height="54dp"
-            android:src="@drawable/ic_machine"
+            android:src="@drawable/ic_uav"
             />
         <LinearLayout
             android:layout_width="match_parent"
