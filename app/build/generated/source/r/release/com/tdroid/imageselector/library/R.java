@@ -473,8 +473,8 @@ public final class R {
         public static final int cp_button_selector_red = 0x7f020063;
         public static final int cp_button_shadow_radius_selector_green = 0x7f020064;
         public static final int cp_drawable_border_all_gray = 0x7f020065;
-        public static final int notification_template_icon_bg = 0x7f0200d7;
-        public static final int top_title = 0x7f0200db;
+        public static final int notification_template_icon_bg = 0x7f0200d8;
+        public static final int top_title = 0x7f0200dc;
     }
     public static final class id {
         public static final int action0 = 0x7f0e0582;

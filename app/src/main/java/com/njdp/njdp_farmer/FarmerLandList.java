@@ -54,8 +54,8 @@ import java.util.Map;
 public class FarmerLandList extends AppCompatActivity implements IControl {
     private static final int FARMLAND_EDIT = 1;
     private final String TAG = "FarmLandList";
-    private final String[][] cropsType = new String[][]{{"H","收割"}, {"C", "耕作"}, {"S", "播种"},
-            {"WH", "小麦"}, {"CO", "玉米"}, {"RC", "水稻"}, {"GR", "谷物"},{"OT", "其他"}, {"SS", "深松"}, {"HA", "平地"}};
+    private final String[][] cropsType = new String[][]{{"H","收割"}, {"C", "耕作"}, {"S", "播种"},{"F", "植保"},
+            {"WH", "小麦"}, {"CO", "玉米"}, {"RC", "水稻"}, {"GR", "谷物"},{"FT", "果树"},{"OT", "其他"}, {"SS", "深松"}, {"HA", "平地"}};
     private ExpandableListView listView;
     private List<String> group;
     private List<List<FarmlandInfo>> child;
@@ -475,10 +475,12 @@ public class FarmerLandList extends AppCompatActivity implements IControl {
                     crop = aCropsType[1];
                 }
             }
+            /*
             if(operation.isEmpty() || crop.isEmpty()){
                 operation = "植保";
                 crop = "";
             }
+            */
         }else {
             operation = "未知";
         }

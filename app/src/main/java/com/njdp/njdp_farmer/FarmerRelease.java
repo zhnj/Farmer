@@ -87,6 +87,11 @@ public class FarmerRelease extends AppCompatActivity {
     private String typeTitle;
     private final String[] crops = new String[]{"小麦", "玉米", "水稻", "谷物", "其他"};
     private final String[] crops1 = new String[]{"WH", "CO", "RC", "GR", "OT"};
+
+    //无人机作业类型
+    private final String[] crops_uav = new String[]{"小麦", "玉米", "水稻", "谷物", "果树","其他"};
+    private final String[] crops1_uav = new String[]{"WH", "CO", "RC", "GR", "FT","OT"};
+
     private final String[] cultivation = new String[]{"深松", "平地"};
     private final String[] cultivation1 = new String[]{"SS", "HA"};
     private final String[] blocks = new String[]{"规则", "不规则"};
@@ -207,10 +212,10 @@ public class FarmerRelease extends AppCompatActivity {
                 rbS.setChecked(true);
                 croptype.setText(crops[indexArry(crops1, farmlandInfo.getCrops_kind().substring(1,3))]);
 
-            }else {
+            }else if(farmlandInfo.getCrops_kind().substring(0,1).equals("F")){  //如果是无人机
                 rbF.setChecked(true);
-                //croptype.setText(crops[indexArry(crops1, farmlandInfo.getCrops_kind().substring(1,3))]);
-                setCropTypeNone();
+                croptype.setText(crops_uav[indexArry(crops1_uav, farmlandInfo.getCrops_kind().substring(1,3))]);
+                //setCropTypeNone();
             }
             area.setText(String.valueOf(farmlandInfo.getArea()));
             price.setText(String.valueOf(farmlandInfo.getUnit_price()));
@@ -248,20 +253,6 @@ public class FarmerRelease extends AppCompatActivity {
 
     //隐藏作物类型
     private void setCropTypeNone() {
-
-        /*
-        LinearLayout.LayoutParams params;
-        params = (LinearLayout.LayoutParams) tv1.getLayoutParams();//获取当前控件的布局对象
-        tv1H=params.height;
-        params.height=1;
-        tv1.setLayoutParams(params);//将设置好的布局参数应用到控件中
-
-        params= (LinearLayout.LayoutParams) croptype.getLayoutParams();//获取当前控件的布局对象
-        croptypeH=params.height;
-        params.height=1;
-        croptype.setLayoutParams(params);//将设置好的布局参数应用到控件中
-        */
-
         tv1.setVisibility(View.GONE);
         croptype.setVisibility(View.GONE);
         crop_kind_fram.setVisibility(View.GONE);
@@ -269,18 +260,6 @@ public class FarmerRelease extends AppCompatActivity {
     }
     //显示作物类型
     private void setCropTypeShow() {
-
-        /*
-        LinearLayout.LayoutParams params= (LinearLayout.LayoutParams) tv1.getLayoutParams();//获取当前控件的布局对象
-        params.height=tv1H;
-        tv1.setLayoutParams(params);//将设置好的布局参数应用到控件中
-
-        params= (LinearLayout.LayoutParams) croptype.getLayoutParams();//获取当前控件的布局对象
-        params.height=croptypeH;
-        croptype.setLayoutParams(params);//将设置好的布局参数应用到控件中
-          */
-
-
         tv1.setVisibility(View.VISIBLE);
         croptype.setVisibility(View.VISIBLE);
         crop_kind_fram.setVisibility(View.VISIBLE);
@@ -435,7 +414,7 @@ public class FarmerRelease extends AppCompatActivity {
                     typeArray = crops;
                     croptype.setText("小麦");
                     croptype.setHint("请选择农作物种类");
-                    setCropTypeShow();
+                    //setCropTypeShow();
                     break;
                 case R.id.rbC:
                     tv1.setText("耕作类型");
@@ -443,11 +422,15 @@ public class FarmerRelease extends AppCompatActivity {
                     typeArray = cultivation;
                     croptype.setText("深松");
                     croptype.setHint("请选择耕作类型");
-                    setCropTypeShow();
+                    //setCropTypeShow();
                     break;
                 case R.id.rbF:
-                    croptype.setText("所有");
-                    setCropTypeNone();
+                    tv1.setText("作物类型");
+                    typeTitle = "选择作物类型";
+                    typeArray = crops_uav;
+                    croptype.setText("小麦");
+                    croptype.setHint("请选择农作物种类");
+                    //setCropTypeShow();
                     break;
 
 
@@ -513,8 +496,9 @@ public class FarmerRelease extends AppCompatActivity {
                     }else if(rbC.isChecked()){
                         crops_kind = "C";
                         crops_kind += cultivation1[indexArry(typeArray, croptype.getText().toString())];
-                    }else{
-                        crops_kind = "FSY";
+                    }else{  //无人机
+                        crops_kind = "F";
+                        crops_kind += crops1_uav[indexArry(typeArray, croptype.getText().toString())];
                     }
                     farmlandInfo.setCrops_kind(crops_kind);
                     params.put("Farmlands_crops_kind", farmlandInfo.getCrops_kind());
