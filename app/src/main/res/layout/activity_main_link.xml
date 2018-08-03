@@ -61,71 +61,45 @@
     <LinearLayout
         android:id="@+id/ll_anim"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_marginBottom="60dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:gravity="center_vertical|center_horizontal"
+
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginTop="10dip"
-            android:gravity="center_horizontal">
+
             <ImageView
                 android:onClick="releaseDemandClick"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dip"
-                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
                 android:src="@drawable/fabu" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginTop="10dip"
-            android:gravity="center_horizontal">
+
+
             <ImageView
                 android:onClick="machineSearchClick"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dip"
-                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
                 android:src="@drawable/chaxun" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginTop="10dip"
-            android:gravity="center_horizontal">
+
             <ImageView
                 android:onClick="UAVSearchClick"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dip"
-                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
                 android:src="@drawable/uavsearch" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginTop="10dip"
-            android:gravity="center_horizontal">
+
             <ImageView
                 android:onClick="peopleInfoClick"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dip"
-                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
                 android:src="@drawable/gerenxinxi" />
-        </LinearLayout>
+
     </LinearLayout>
 
 
