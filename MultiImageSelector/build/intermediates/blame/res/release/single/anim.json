@@ -1,5 +1,13 @@
 [
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
@@ -16,12 +24,28 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
@@ -32,8 +56,24 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\MultiImageSelector\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",

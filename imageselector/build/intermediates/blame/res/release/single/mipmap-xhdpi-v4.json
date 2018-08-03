@@ -4,6 +4,26 @@
         "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_icon_imageselector_unchecked.png"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_icon_selectorview_add_noborder.png",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_icon_selectorview_add_noborder.png"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_icon_image_stub.png",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_icon_image_stub.png"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_icon_selectorview_add_border.png",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_icon_selectorview_add_border.png"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_imageselector_view_delete.png",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_imageselector_view_delete.png"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_imageselector_view_done.png",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_imageselector_view_done.png"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_icon_image_stub.png",
         "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_icon_image_stub.png"
     },
@@ -16,8 +36,16 @@
         "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_imageselector_view_delete.png"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_icon_imageselector_checked.png",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_icon_imageselector_checked.png"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_icon_selectorview_add_noborder.png",
         "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_icon_selectorview_add_noborder.png"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_icon_imageselector_unchecked.png",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\src\\main\\res\\mipmap-xhdpi\\cp_icon_imageselector_unchecked.png"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi-v4\\cp_icon_imageselector_checked.png",

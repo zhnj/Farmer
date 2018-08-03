@@ -1,15 +1,47 @@
 [
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
@@ -34,5 +66,9 @@
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\6ef991cb53730b8e51f2c8d2dc2ccbcc4e425f54\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a98605050697c32569de1ff4599c1301b4a32e3f\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     }
 ]

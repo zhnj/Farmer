@@ -4,9 +4,9 @@ android {
     signingConfigs {
         config {
             keyAlias 'key'
-            keyPassword '123456'
-            storeFile file('D:/ASWork/AndroidStudioProjects/GRJK123456.store')
-            storePassword '123456'
+            keyPassword 'android'
+            storeFile file('E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\nj_farmer.jks')
+            storePassword 'android'
         }
     }
     compileSdkVersion 25

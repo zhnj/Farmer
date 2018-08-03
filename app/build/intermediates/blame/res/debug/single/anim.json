@@ -1,55 +1,39 @@
 [
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\refresh.xml",
         "source": "F:\\androidstudio\\NJDP_farmer\\app\\src\\main\\res\\anim\\refresh.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\donghua_frame.xml",
-        "source": "F:\\androidstudio\\NJDP_farmer\\app\\src\\main\\res\\anim\\donghua_frame.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\anim\\design_fab_out.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_fab_in.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cp_components_anim_enter.xml",
-        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\default\\res\\anim\\cp_components_anim_enter.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_snackbar_in.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cp_components_anim_exit.xml",
-        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\default\\res\\anim\\cp_components_anim_exit.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
@@ -60,16 +44,112 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\donghua_frame.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\src\\main\\res\\anim\\donghua_frame.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cp_components_anim_exit.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\bundles\\default\\res\\anim\\cp_components_anim_exit.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\donghua_frame.xml",
+        "source": "F:\\androidstudio\\NJDP_farmer\\app\\src\\main\\res\\anim\\donghua_frame.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cp_components_anim_enter.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\imageselector\\build\\intermediates\\bundles\\default\\res\\anim\\cp_components_anim_enter.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cp_components_anim_enter.xml",
+        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\default\\res\\anim\\cp_components_anim_enter.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\refresh.xml",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\src\\main\\res\\anim\\refresh.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\cp_components_anim_exit.xml",
+        "source": "F:\\androidstudio\\NJDP_farmer\\imageselector\\build\\intermediates\\bundles\\default\\res\\anim\\cp_components_anim_exit.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_snackbar_out.xml"
-    },
-    {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
