@@ -201,8 +201,7 @@ public class FarmAdapter extends BaseExpandableListAdapter {
 
 		if(!child.get(groupPosition).get(childPosition).getStartCount().equals("null"))
 			viewHolder.etpingyu.setText(child.get(groupPosition).get(childPosition).getPingJia());
-		else
-			viewHolder.etpingyu.setText("");
+
 
 		if(child.get(groupPosition).get(childPosition).getStartCount()!=null && !child.get(groupPosition).get(childPosition).getStartCount().equals("null"))
 			viewHolder.fivestars.setRating(Float.parseFloat(child.get(groupPosition).get(childPosition).getStartCount()));
@@ -228,6 +227,7 @@ public class FarmAdapter extends BaseExpandableListAdapter {
 			viewHolder.btn_submit.setEnabled(false);
 			viewHolder.btn_submit.setClickable(false);
 			//输入是否改变，判断是否禁用按钮
+
 			viewHolder.etpingyu.addTextChangedListener( new TextWatcher() {
 				@Override
 				public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -246,6 +246,7 @@ public class FarmAdapter extends BaseExpandableListAdapter {
 					}
 				}
 			});
+
 		}
 		viewHolder.btn_submit.setOnClickListener(new View.OnClickListener() {
 			String tag_string_req = "req_user_edit";
