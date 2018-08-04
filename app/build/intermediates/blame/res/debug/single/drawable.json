@@ -116,12 +116,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
         "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s1.png",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
         "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\s29.png",
         "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\src\\main\\res\\drawable\\s29.png"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\18c2f1cbd748cad37f6c3dfaa8ad14647531e2a3\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -506,6 +506,10 @@
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_uav.png",
+        "source": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\src\\main\\res\\drawable\\ic_uav.png"
     },
     {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",

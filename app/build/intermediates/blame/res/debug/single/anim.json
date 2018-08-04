@@ -8,12 +8,12 @@
         "source": "F:\\androidstudio\\NJDP_farmer\\app\\src\\main\\res\\anim\\refresh.xml"
     },
     {
-        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\anim\\design_fab_out.xml"
-    },
-    {
         "merged": "F:\\androidstudio\\NJDP_farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\b99b1ea1fd1f7786df99d83f8a947e5321d7da76\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\01de64034d612fd5f9038ea67790c669a573bee4\\output\\res\\anim\\design_fab_out.xml"
     },
     {
         "merged": "E:\\0-bdking\\Project\\AndroidStudioProjects\\FarmerApplication\\Farmer\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
