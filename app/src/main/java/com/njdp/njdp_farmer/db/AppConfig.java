@@ -67,7 +67,8 @@ public class AppConfig {
     //紧急农田删除
     public static String URL_FARMLAND_URGENCY_DEL = URL_IP + "app/gov/UrgencyFarmland/destroy";
 
-    public static String JAVAURL_IP="http://211.68.183.50:8088/";
+    //public static String JAVAURL_IP="http://211.68.183.50:8088/";
+    public static String JAVAURL_IP="http://218.12.43.231:7506/";
     public static String URL_FARMLAND_PINGJIA=JAVAURL_IP+"Mobile/farmer/pingjia";//作业的评价
 
     //周边可用无人机查询
